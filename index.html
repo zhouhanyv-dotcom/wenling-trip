@@ -56,6 +56,7 @@
   /* SVG 地图 */
   .map-box{overflow-x:auto;border-radius:12px}
   svg.tourmap{width:100%;min-width:330px;height:auto;display:block}
+  .map-dot{cursor:pointer}
   .legend{display:flex;flex-wrap:wrap;gap:10px;margin-top:10px;font-size:12px;color:var(--sub)}
   .legend i{display:inline-block;width:18px;height:4px;border-radius:2px;vertical-align:middle;margin-right:4px}
   .map-note{font-size:11px;color:var(--sub);margin-top:6px}
@@ -238,21 +239,31 @@
         <!-- 点位 -->
         <g font-size="11" font-weight="700" text-anchor="middle">
           <!-- 温岭站 -->
-          <circle cx="38" cy="48" r="8" fill="var(--purple)"/><circle cx="38" cy="48" r="3" fill="#fff"/>
-          <text x="38" y="34" fill="var(--ink)" stroke="var(--card)" stroke-width="3" paint-order="stroke">温岭站</text>
+          <g class="map-dot" data-kw="温岭站">
+            <circle cx="38" cy="48" r="8" fill="var(--purple)"/><circle cx="38" cy="48" r="3" fill="#fff"/>
+            <text x="38" y="34" fill="var(--ink)" stroke="var(--card)" stroke-width="3" paint-order="stroke">温岭站</text>
+          </g>
           <!-- 长屿硐天 -->
-          <circle cx="304" cy="58" r="8" fill="var(--orange)"/><circle cx="304" cy="58" r="3" fill="#fff"/>
-          <text x="304" y="44" fill="var(--ink)" stroke="var(--card)" stroke-width="3" paint-order="stroke">长屿硐天</text>
+          <g class="map-dot" data-kw="长屿硐天景区">
+            <circle cx="304" cy="58" r="8" fill="var(--orange)"/><circle cx="304" cy="58" r="3" fill="#fff"/>
+            <text x="304" y="44" fill="var(--ink)" stroke="var(--card)" stroke-width="3" paint-order="stroke">长屿硐天</text>
+          </g>
           <!-- 酒店 -->
-          <rect x="146" y="134" width="28" height="22" rx="5" fill="var(--accent)"/>
-          <text x="160" y="150" fill="#fff">住</text>
-          <text x="160" y="174" fill="var(--ink)" stroke="var(--card)" stroke-width="3" paint-order="stroke">安迪电竞酒店(2晚)</text>
+          <g class="map-dot" data-kw="温岭安迪电竞酒店">
+            <rect x="146" y="134" width="28" height="22" rx="5" fill="var(--accent)"/>
+            <text x="160" y="150" fill="#fff">住</text>
+            <text x="160" y="174" fill="var(--ink)" stroke="var(--card)" stroke-width="3" paint-order="stroke">安迪电竞酒店(2晚)</text>
+          </g>
           <!-- 小交陈 -->
-          <circle cx="306" cy="214" r="8" fill="var(--teal)"/><circle cx="306" cy="214" r="3" fill="#fff"/>
-          <text x="306" y="205" fill="var(--ink)" stroke="var(--card)" stroke-width="3" paint-order="stroke">小交陈·水桶岙</text>
+          <g class="map-dot" data-kw="小交陈村">
+            <circle cx="306" cy="214" r="8" fill="var(--teal)"/><circle cx="306" cy="214" r="3" fill="#fff"/>
+            <text x="306" y="205" fill="var(--ink)" stroke="var(--card)" stroke-width="3" paint-order="stroke">小交陈·水桶岙</text>
+          </g>
           <!-- 小箬村 -->
-          <circle cx="216" cy="276" r="8" fill="var(--teal)"/><circle cx="216" cy="276" r="3" fill="#fff"/>
-          <text x="216" y="298" fill="var(--ink)" stroke="var(--card)" stroke-width="3" paint-order="stroke">七彩小箬村</text>
+          <g class="map-dot" data-kw="七彩小箬村">
+            <circle cx="216" cy="276" r="8" fill="var(--teal)"/><circle cx="216" cy="276" r="3" fill="#fff"/>
+            <text x="216" y="298" fill="var(--ink)" stroke="var(--card)" stroke-width="3" paint-order="stroke">七彩小箬村</text>
+          </g>
         </g>
         <!-- 指南针 -->
         <g transform="translate(328,30)" opacity=".7">
@@ -268,7 +279,7 @@
       <span><i style="background:var(--purple)"></i>Day3 返程</span>
       <span>虚线＝返程</span>
     </div>
-    <div class="map-note">点下方每个地点可直接唤起高德地图；页面完全离线可用。</div>
+    <div class="map-note">👆 点击地图上的任意地点，直接唤起高德地图导航；页面本身离线也能看。</div>
   </section>
 
   <!-- 3. 已确认订单 -->
@@ -290,12 +301,13 @@
     <div class="booking only-luo">
       <div class="bk-title"><span>去程 · 9月29日 周二（罗润智）</span><span class="badge ok">已出票</span></div>
       <div class="train">
-        <div class="station"><div class="t">09:25</div><small>温州南</small></div>
-        <div class="mid"><div class="code">G7486</div></div>
-        <div class="station"><div class="t">10:12</div><small>温岭</small></div>
+        <div class="station"><div class="t">09:01</div><small>温州北</small></div>
+        <div class="mid"><div class="code">G7568</div></div>
+        <div class="station"><div class="t">09:33</div><small>温岭</small></div>
       </div>
-      <div class="bk-desc">本车温州南始发，经乐清 09:42 / 雁荡山 10:00，沿途站均可乘车，具体乘车站以他 12306 为准</div>
-      <div class="bk-desc"><b>10:12 到温岭，比杭州组早 33 分钟</b>——到站直接打车去酒店寄存行李，等大部队 11:30 前后汇合</div>
+      <div class="bk-desc">本车苍南始发，经瑞安 08:40 沿途站可上车，具体乘车站以他 12306 为准</div>
+      <div class="bk-desc"><b>09:33 到温岭，比杭州组早 1 小时 12 分</b>——到站直接打车去酒店寄存行李，等大部队 11:40 汇合</div>
+      <a class="navbtn" data-kw="温州北站" data-city="330300">导航到温州北站</a>
       <a class="navbtn" data-kw="温岭站" data-city="331081">导航到温岭站</a>
       <a class="navbtn" data-kw="温岭安迪电竞酒店" data-city="331081">导航去酒店</a>
     </div>
@@ -366,9 +378,9 @@
             <div class="tl-desc">10:45 到温岭站</div>
           </div>
           <div class="tl-item">
-            <div class="tl-time">10:12</div>
-            <div class="tl-main"><span class="tag rail">高铁</span>罗润智 G7486 到温岭站</div>
-            <div class="tl-desc">比大部队早 33 分钟，直接打车去酒店寄存行李，酒店附近先逛逛</div>
+            <div class="tl-time">09:33</div>
+            <div class="tl-main"><span class="tag rail">高铁</span>罗润智 G7568 到温岭站</div>
+            <div class="tl-desc">温州北 09:01 发车；比大部队早 1 小时 12 分，直接打车去酒店寄存行李，附近先逛逛</div>
           </div>
           <div class="tl-item">
             <div class="tl-time">11:00</div>
@@ -569,13 +581,23 @@
 (function(){
   "use strict";
   /* ---------- 高德导航：关键词唤起，无需坐标，打开 App/网页版 ---------- */
-  document.querySelectorAll("[data-kw]").forEach(function(a){
+  document.querySelectorAll("a.navbtn[data-kw]").forEach(function(a){
     var kw = encodeURIComponent(a.getAttribute("data-kw"));
     var city = a.getAttribute("data-city") || "331081";
     a.href = "https://uri.amap.com/search?keyword=" + kw + "&city=" + city +
              "&src=wenlingtrip&coordinate=gaode&callnative=1";
     a.target = "_blank";
     a.rel = "noopener";
+  });
+
+  /* ---------- 地图点位：点击任意地点唤起高德 ---------- */
+  document.querySelectorAll(".map-dot").forEach(function(g){
+    g.addEventListener("click", function(){
+      var kw = encodeURIComponent(g.getAttribute("data-kw"));
+      var city = g.getAttribute("data-city") || "331081";
+      window.open("https://uri.amap.com/search?keyword=" + kw + "&city=" + city +
+                  "&src=wenlingtrip&coordinate=gaode&callnative=1", "_blank");
+    });
   });
 
   /* ---------- 北京时间（强制 UTC+8，跨时区不错点） ---------- */
@@ -598,8 +620,10 @@
     P("2026-09-29T10:45:00+08:00","2026-09-29T11:00:00+08:00","出站打车去酒店","约 35–40 分钟，罗润智已在酒店等","温岭安迪电竞酒店")
   ];
   var planLuo = [
-    P("2026-09-29T08:30:00+08:00","2026-09-29T10:12:00+08:00","前往乘车站候车","乘车站以你 12306 为准（本车温州南始发，乐清/雁荡山沿途可上）"),
-    P("2026-09-29T10:12:00+08:00","2026-09-29T11:00:00+08:00","到温岭站 · 打车去酒店","比大部队早 33 分钟，先寄存行李","温岭安迪电竞酒店")
+    P("2026-09-29T08:20:00+08:00","2026-09-29T09:01:00+08:00","赶温州北站候车","08:20 前到站取票安检，别卡点","温州北站","330300"),
+    P("2026-09-29T09:01:00+08:00","2026-09-29T09:33:00+08:00","G7568 高铁途中","温州北 → 温岭"),
+    P("2026-09-29T09:33:00+08:00","2026-09-29T10:20:00+08:00","到温岭站 · 打车去酒店","比大部队早 1 小时 12 分，先寄存行李","温岭安迪电竞酒店"),
+    P("2026-09-29T10:20:00+08:00","2026-09-29T11:40:00+08:00","酒店附近自由活动","喝杯咖啡养精蓄锐，等大部队 11:40 汇合","温岭安迪电竞酒店")
   ];
   var planCommon = [
     P("2026-09-29T11:00:00+08:00","2026-09-29T11:40:00+08:00","酒店汇合休整","放行李、洗把脸、插上充电宝","温岭安迪电竞酒店"),
