@@ -1,773 +1,903 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-theme="light">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>温岭 3 天 2 晚旅行手册 · 9.29–10.1</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>温岭 3 天 2 晚 · 旅行手册（9.29–10.1）</title>
+<meta name="description" content="2026.9.29–10.1 温岭 3 天 2 晚行程手册：车票、住宿、逐日安排、一键导航与徒步贴士。">
+<meta name="theme-color" content="#f6f2e9">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="温岭手册">
+<meta name="format-detection" content="telephone=no">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<link rel="manifest" href="data:application/manifest+json,%7B%22name%22%3A%22%E6%B8%A9%E5%B2%AD%203%20%E5%A4%A9%202%20%E6%99%9A%20%C2%B7%20%E6%97%85%E8%A1%8C%E6%89%8B%E5%86%8C%22%2C%22short_name%22%3A%22%E6%B8%A9%E5%B2%AD%E6%89%8B%E5%86%8C%22%2C%22start_url%22%3A%22https%3A//zhouhanyv-dotcom.github.io/wenling-trip/%22%2C%22scope%22%3A%22https%3A//zhouhanyv-dotcom.github.io/wenling-trip/%22%2C%22display%22%3A%22standalone%22%2C%22orientation%22%3A%22portrait%22%2C%22background_color%22%3A%22%23f6f2e9%22%2C%22theme_color%22%3A%22%230e7c86%22%2C%22lang%22%3A%22zh-CN%22%2C%22icons%22%3A%5B%7B%22src%22%3A%22data%3Aimage/png%3Bbase64%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%22%2C%22sizes%22%3A%22192x192%22%2C%22type%22%3A%22image/png%22%2C%22purpose%22%3A%22any%22%7D%5D%7D">
 <style>
   :root{
-    --bg:#f3efe6; --card:#ffffff; --ink:#202a36; --sub:#5d6c7c; --line:#e5dfd1;
-    --accent:#0e7c86; --accent-soft:#e2f1f1; --orange:#d9742e; --orange-soft:#fbeadd;
-    --purple:#6c52b3; --purple-soft:#eeebf8; --teal:#0a8f86;
-    --danger:#c0392b; --danger-soft:#fbe9e7; --ok:#1e8a55; --ok-soft:#e6f5ed;
-    --shadow:0 2px 14px rgba(40,50,70,.08);
+    --paper:#f6f2e9; --card:#fffdf8; --ink:#1e2a33; --sub:#5e6b77; --line:#e7e0d1;
+    --brand:#0e7c86; --brand-d:#0a5f68; --brand-soft:#e3f2f2;
+    --orange:#cf7526; --orange-soft:#fbead9;
+    --plum:#6a51b0; --plum-soft:#eeebf9;
+    --sea:#2b8fb0; --sea-soft:#e6f3f7;
+    --ok:#1b8757; --ok-soft:#e6f5ed;
+    --warn:#bd3b2b; --warn-soft:#fbe9e6;
+    --shadow:0 1px 2px rgba(35,45,60,.05), 0 10px 26px -14px rgba(35,45,60,.3);
+    --r:16px;
   }
   html[data-theme="dark"]{
-    --bg:#0c1826; --card:#132639; --ink:#e7eff6; --sub:#93abbc; --line:#22384d;
-    --accent:#3fc3cf; --accent-soft:#11343c; --orange:#f0985f; --orange-soft:#3a2a1d;
-    --purple:#b39af0; --purple-soft:#241f3d; --teal:#3fd0c4;
-    --danger:#ff7a6b; --danger-soft:#3c1f1c; --ok:#4ec98b; --ok-soft:#12352a;
-    --shadow:0 2px 14px rgba(0,0,0,.35);
+    --paper:#0d151c; --card:#14222e; --ink:#e8f0f6; --sub:#93a8b7; --line:#23384a;
+    --brand:#45c6d1; --brand-d:#1d6f79; --brand-soft:#12333a;
+    --orange:#f0a05f; --orange-soft:#3a2a1c;
+    --plum:#b49bf0; --plum-soft:#241f3d;
+    --sea:#5cc0dd; --sea-soft:#122b34;
+    --ok:#4ec98b; --ok-soft:#123528;
+    --warn:#ff8674; --warn-soft:#3c1f1c;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 26px -14px rgba(0,0,0,.7);
   }
   *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  html{-webkit-text-size-adjust:100%}
   body{
     font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
-    background:var(--bg); color:var(--ink); line-height:1.65;
+    background:var(--paper); color:var(--ink); line-height:1.62;
+    background-image:radial-gradient(rgba(90,80,60,.055) 1px,transparent 0);
+    background-size:20px 20px;
     padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
-    transition:background .4s,color .4s;
+    transition:background-color .35s,color .35s;
   }
-  .wrap{max-width:560px;margin:0 auto;padding:0 14px 60px}
-  header.hero{padding:26px 4px 6px}
-  .hero h1{font-size:26px;letter-spacing:1px}
-  .hero .meta{color:var(--sub);font-size:13px;margin-top:6px}
-  .clock{font-size:12px;color:var(--sub);margin-top:2px}
+  html[data-theme="dark"] body{background-image:radial-gradient(rgba(255,255,255,.05) 1px,transparent 0)}
+  .wrap{max-width:580px;margin:0 auto;padding:0 14px 70px}
+  a{color:var(--brand)}
 
-  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;
-    box-shadow:var(--shadow);padding:16px;margin-top:14px;transition:background .4s,border-color .4s}
-  .card h2{font-size:16px;display:flex;align-items:center;gap:8px;margin-bottom:10px}
-  .card h2 .en{font-size:11px;color:var(--sub);font-weight:400;letter-spacing:1px}
+  /* ---------- 顶部 ---------- */
+  header.hero{padding:26px 2px 4px}
+  .hero .kicker{font-size:12px;letter-spacing:3px;color:var(--sub);font-weight:600}
+  .hero h1{font-size:27px;line-height:1.28;letter-spacing:.5px;margin:6px 0 2px}
+  .hero .wave{display:block;width:132px;height:10px;margin:4px 0 8px;color:var(--brand)}
+  .hero .meta{color:var(--sub);font-size:13px}
+  .hero .clock{font-size:12px;color:var(--sub);margin-top:6px;font-variant-numeric:tabular-nums}
+  .hero .pill{display:inline-block;margin-top:10px;font-size:13px;font-weight:700;color:#fff;
+    background:linear-gradient(135deg,var(--brand),var(--brand-d));border-radius:20px;padding:5px 14px;
+    font-variant-numeric:tabular-nums;box-shadow:var(--shadow)}
+  html[data-theme="dark"] .hero .pill{color:#08222a}
 
-  /* 倒计时 */
-  .focus{background:linear-gradient(135deg,var(--accent),#0a5d66);color:#fff;border:none;position:relative;overflow:hidden}
-  html[data-theme="dark"] .focus{background:linear-gradient(135deg,#0e5a66,#0a3f47)}
-  .focus .label{font-size:13px;opacity:.85}
-  .focus .event{font-size:21px;font-weight:700;margin:4px 0 2px}
-  .focus .event-sub{font-size:13px;opacity:.85}
-  .countdown{display:flex;gap:8px;margin-top:14px}
-  .cd-box{flex:1;background:rgba(255,255,255,.14);border-radius:12px;text-align:center;padding:8px 0;backdrop-filter:blur(4px)}
-  .cd-box b{display:block;font-size:26px;font-variant-numeric:tabular-nums;line-height:1.1}
-  .cd-box span{font-size:11px;opacity:.85}
-  .now-row{background:rgba(255,255,255,.14);border-radius:12px;padding:10px 12px;margin-top:10px}
-  .now-row .now-label{font-size:10px;opacity:.75;letter-spacing:3px}
-  .now-row .now-main{font-size:16px;font-weight:700;margin-top:2px;line-height:1.4}
-  .now-row .now-sub{font-size:12px;opacity:.85;margin-top:2px}
-  .now-row .navbtn{color:#fff;border-color:rgba(255,255,255,.75);background:rgba(255,255,255,.12)}
+  /* ---------- 卡片 ---------- */
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);
+    box-shadow:var(--shadow);padding:15px;margin-top:13px;transition:background-color .35s,border-color .35s}
+  .card h2{font-size:16px;display:flex;align-items:baseline;gap:8px;margin-bottom:10px;flex-wrap:wrap}
+  .card h2 .en{font-size:11px;color:var(--sub);font-weight:400;letter-spacing:.5px}
 
-  /* SVG 地图 */
-  .map-box{overflow-x:auto;border-radius:12px}
-  svg.tourmap{width:100%;min-width:330px;height:auto;display:block}
-  .map-dot{cursor:pointer}
-  .legend{display:flex;flex-wrap:wrap;gap:10px;margin-top:10px;font-size:12px;color:var(--sub)}
-  .legend i{display:inline-block;width:18px;height:4px;border-radius:2px;vertical-align:middle;margin-right:4px}
-  .map-note{font-size:11px;color:var(--sub);margin-top:6px}
+  /* ---------- 现在该干嘛 ---------- */
+  .now{position:sticky;top:6px;z-index:30;background:var(--card);
+    border:1px solid var(--line);border-left:4px solid var(--brand)}
+  .now .hd{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:8px}
+  .now .hd b{font-size:13px;letter-spacing:1px;color:var(--brand)}
+  .now .hd span{font-size:11px;color:var(--sub)}
+  .nrow{display:flex;gap:9px;padding:7px 0;border-top:1px dashed var(--line)}
+  .nrow:first-of-type{border-top:none}
+  .nrow .lb{flex:none;width:46px;font-size:11px;color:var(--sub);font-weight:700;letter-spacing:1px;padding-top:2px}
+  .nrow .ct{flex:1;min-width:0}
+  .nrow .m{font-size:15px;font-weight:700;line-height:1.4}
+  .nrow .s{font-size:12px;color:var(--sub);margin-top:1px}
+  .nrow.now-row .m{font-size:16px}
+  .cd{display:flex;align-items:baseline;gap:6px;font-variant-numeric:tabular-nums;font-weight:700;font-size:19px;color:var(--brand)}
+  .cd small{font-size:11px;color:var(--sub);font-weight:600}
+  .cd .units{font-size:12px;color:var(--sub);font-weight:600}
+  .navbtn{display:inline-flex;align-items:center;gap:3px;flex:none;align-self:flex-start;margin-top:2px;
+    font-size:12px;font-weight:700;color:#fff;background:var(--brand);border:1px solid var(--brand);
+    border-radius:20px;padding:4px 11px;text-decoration:none;white-space:nowrap}
+  .navbtn:active{opacity:.65}
+  .navbtn.ghost{background:transparent;color:var(--brand)}
 
-  /* 订单 */
-  .booking{border:1px solid var(--line);border-radius:12px;padding:12px;margin-top:10px;background:transparent}
-  .booking .bk-title{font-size:13px;color:var(--sub);display:flex;justify-content:space-between;gap:8px;align-items:center}
-  .train{display:flex;align-items:center;gap:10px;margin:10px 0 4px}
-  .train .t{font-size:22px;font-weight:700;font-variant-numeric:tabular-nums}
-  .train .mid{flex:1;text-align:center;position:relative;color:var(--sub)}
-  .train .mid .code{font-size:13px;font-weight:700;color:var(--accent)}
-  .train .mid::before,.train .mid::after{content:"";position:absolute;top:50%;width:calc(50% - 22px);border-top:2px dashed var(--line)}
-  .train .mid::before{left:0}
-  .train .mid::after{right:0}
-  .train .station{text-align:center;min-width:64px}
-  .train .station small{display:block;color:var(--sub);font-size:11px}
-  .bk-desc{font-size:13px;color:var(--sub)}
-  .badge{font-size:11px;padding:2px 8px;border-radius:20px;white-space:nowrap;font-weight:600}
-  .badge.ok{background:var(--ok-soft);color:var(--ok)}
-  .badge.wait{background:var(--danger-soft);color:var(--danger)}
-  .badge.info{background:var(--accent-soft);color:var(--accent)}
-  .kv{font-size:13px;color:var(--sub);margin-top:6px}
-  .kv b{color:var(--ink);font-weight:600}
-
-  /* 标签 */
-  .tag{display:inline-block;font-size:11px;padding:1px 8px;border-radius:6px;margin-right:6px;font-weight:600}
-  .tag.rail{background:var(--purple-soft);color:var(--purple)}
-  .tag.taxi{background:var(--orange-soft);color:var(--orange)}
-  .tag.hike{background:var(--accent-soft);color:var(--accent)}
-  .tag.book{background:var(--danger-soft);color:var(--danger)}
-  .tag.free{background:var(--ok-soft);color:var(--ok)}
-
-  /* 逐日 */
-  details.day{border:1px solid var(--line);border-radius:14px;margin-top:12px;overflow:hidden;background:var(--card);transition:background .4s,border-color .4s}
-  details.day>summary{list-style:none;cursor:pointer;padding:14px 16px;display:flex;align-items:center;gap:12px}
-  details.day>summary::-webkit-details-marker{display:none}
-  .day-no{width:44px;height:44px;border-radius:12px;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff;font-size:12px;flex:none}
-  .day-no b{font-size:17px;line-height:1}
-  .d1 .day-no{background:var(--orange)} .d2 .day-no{background:var(--teal)} .d3 .day-no{background:var(--purple)}
-  .day-head{flex:1}
-  .day-head b{font-size:15px}
-  .day-head small{display:block;color:var(--sub);font-size:12px}
-  .arrow{color:var(--sub);transition:transform .25s}
-  details.day[open] .arrow{transform:rotate(180deg)}
-  .day-body{padding:0 16px 14px}
-
-  .route-mini{background:var(--accent-soft);border-radius:10px;padding:10px 12px;margin-bottom:12px;font-size:12px}
-  .route-mini .stops{display:flex;flex-wrap:wrap;gap:4px;align-items:center;margin-top:6px}
-  .route-mini .s{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:1px 7px}
-  .route-mini .sep{color:var(--sub)}
-
-  .tl{position:relative;margin-left:6px;padding-left:18px;border-left:2px solid var(--line)}
-  .tl-item{position:relative;padding:0 0 16px}
-  .tl-item:last-child{padding-bottom:4px}
-  .tl-item::before{content:"";position:absolute;left:-24px;top:7px;width:10px;height:10px;border-radius:50%;background:var(--card);border:3px solid var(--accent)}
-  .d2 .tl-item::before{border-color:var(--teal)}
-  .d3 .tl-item::before{border-color:var(--purple)}
-  .tl-time{font-size:12px;color:var(--sub);font-weight:700;font-variant-numeric:tabular-nums}
-  .tl-main{font-size:14px;font-weight:600;margin:1px 0}
-  .tl-desc{font-size:13px;color:var(--sub)}
-  .navbtn{display:inline-block;margin-top:6px;font-size:12px;color:var(--accent);border:1px solid var(--accent);
-    border-radius:20px;padding:2px 12px;text-decoration:none;background:transparent}
-  html[data-theme="dark"] .navbtn{color:var(--teal);border-color:var(--teal)}
-  .navbtn:active{opacity:.6}
-
-  .callout{border-radius:10px;padding:10px 12px;font-size:13px;margin-top:10px}
-  .callout.warn{background:var(--danger-soft);color:var(--danger)}
-  .callout.tip{background:var(--orange-soft);color:#a85a20}
-  html[data-theme="dark"] .callout.tip{color:var(--orange)}
-  .callout b{display:block;margin-bottom:2px}
-
-  /* 待办 */
-  .todo-group{font-size:13px;font-weight:700;color:var(--danger);margin:12px 0 6px}
-  .todo-group.normal{color:var(--accent)}
-  ul.todo{list-style:none}
-  ul.todo li{position:relative;padding:7px 0 7px 26px;font-size:14px;border-bottom:1px dashed var(--line)}
-  ul.todo li:last-child{border-bottom:none}
-  ul.todo li::before{content:"";position:absolute;left:4px;top:14px;width:9px;height:9px;border-radius:50%;border:2px solid var(--danger)}
-  ul.todo.normal li::before{border-color:var(--accent)}
-  ul.todo li small{display:block;color:var(--sub);font-size:12px}
-
-  /* 贴士 */
-  .tips{display:grid;gap:10px}
-  .tip-item{border-left:3px solid var(--accent);padding:2px 0 2px 12px;font-size:13px;color:var(--sub)}
-  .tip-item b{color:var(--ink);display:block;font-size:14px;margin-bottom:1px}
-  footer{text-align:center;color:var(--sub);font-size:12px;margin-top:26px;line-height:1.9}
-
-  /* 身份切换 */
-  .who{padding:14px 16px}
-  .who-label{font-size:12px;color:var(--sub);margin-bottom:8px}
+  /* ---------- 视角切换 ---------- */
   .seg{display:flex;gap:8px}
   .seg button{flex:1;border:1px solid var(--line);background:transparent;color:var(--ink);
-    border-radius:12px;padding:10px 8px;font-size:14px;font-weight:600;cursor:pointer;transition:all .2s}
-  .seg button.active{background:var(--accent);border-color:var(--accent);color:#fff}
-  body[data-who="hz"] .only-luo{display:none!important}
-  body[data-who="luo"] .only-hz{display:none!important}
+    border-radius:12px;padding:10px 6px;font-size:14px;font-weight:700;cursor:pointer;
+    font-family:inherit;transition:.2s}
+  .seg button small{display:block;font-size:11px;font-weight:400;color:var(--sub)}
+  .seg button.active{background:var(--brand);border-color:var(--brand);color:#fff}
+  .seg button.active small{color:rgba(255,255,255,.85)}
+  .who-note{font-size:12px;color:var(--sub);margin-bottom:9px}
 
-  /* 日/夜手动切换按钮 */
-  .theme-toggle{position:fixed;top:10px;right:12px;z-index:9;width:38px;height:38px;
-    border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--ink);
-    font-size:17px;cursor:pointer;box-shadow:var(--shadow);line-height:1}
-  .theme-toggle:active{transform:scale(.92)}
+  /* ---------- 地图 ---------- */
+  svg.tourmap{width:100%;height:auto;display:block;border-radius:12px}
+  .map-dot{cursor:pointer}
+  .map-dot:active{opacity:.6}
+  .legend{display:flex;flex-wrap:wrap;gap:9px;margin-top:9px;font-size:12px;color:var(--sub)}
+  .legend i{display:inline-block;width:16px;height:4px;border-radius:2px;vertical-align:middle;margin-right:4px}
+  .map-note{font-size:11.5px;color:var(--sub);margin-top:7px}
+
+  /* ---------- 票务 ---------- */
+  .tk{border:1px solid var(--line);border-radius:13px;padding:12px;margin-top:10px;position:relative;overflow:hidden}
+  .tk.mine{border-color:var(--brand);background:var(--brand-soft)}
+  .tk.mine::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--brand)}
+  .tk .tk-hd{font-size:12.5px;color:var(--sub);display:flex;justify-content:space-between;gap:8px;align-items:center}
+  .tk .who-tag{font-size:11px;font-weight:700;color:#fff;background:var(--brand);border-radius:20px;padding:2px 9px}
+  .train{display:flex;align-items:center;gap:6px;margin:9px 0 3px}
+  .train .st{text-align:center;min-width:66px}
+  .train .st .t{font-size:21px;font-weight:700;font-variant-numeric:tabular-nums;line-height:1.15}
+  .train .st small{display:block;color:var(--sub);font-size:11px}
+  .train .mid{flex:1;text-align:center;position:relative;color:var(--sub);font-size:11px}
+  .train .mid .code{font-size:14px;font-weight:700;color:var(--brand);letter-spacing:.5px}
+  .train .mid::before,.train .mid::after{content:"";position:absolute;top:9px;width:calc(50% - 30px);border-top:2px dashed var(--line)}
+  .train .mid::before{left:0}
+  .train .mid::after{right:0}
+  .tk .desc{font-size:12.5px;color:var(--sub);margin-top:5px}
+  .tk .desc b{color:var(--ink)}
+  html[data-theme="dark"] .tk.mine .desc b{color:var(--ink)}
+  .badge{font-size:11px;padding:2px 8px;border-radius:20px;white-space:nowrap;font-weight:700}
+  .badge.ok{background:var(--ok-soft);color:var(--ok)}
+  .badge.info{background:var(--brand-soft);color:var(--brand)}
+  .flag{font-size:12px;background:var(--warn-soft);color:var(--warn);border-radius:9px;padding:7px 9px;margin-top:8px}
+  .kv{font-size:13px;color:var(--sub);margin-top:5px}
+  .kv b{color:var(--ink)}
+  .btns{display:flex;flex-wrap:wrap;gap:7px;margin-top:9px}
+
+  /* ---------- 标签 ---------- */
+  .tag{display:inline-block;font-size:11px;padding:1px 7px;border-radius:6px;margin-right:5px;font-weight:700;vertical-align:1px}
+  .tag.rail{background:var(--plum-soft);color:var(--plum)}
+  .tag.taxi{background:var(--orange-soft);color:var(--orange)}
+  .tag.hike{background:var(--brand-soft);color:var(--brand)}
+  .tag.book{background:var(--warn-soft);color:var(--warn)}
+  .tag.confirm{background:var(--warn-soft);color:var(--warn);border:1px dashed currentColor}
+  .tag.free{background:var(--ok-soft);color:var(--ok)}
+
+  /* ---------- 逐日 ---------- */
+  .dayhd{font-size:17px;font-weight:700;padding:2px 4px;margin-top:20px}
+  details.day{border:1px solid var(--line);border-radius:14px;margin-top:10px;overflow:hidden;background:var(--card)}
+  details.day>summary{list-style:none;cursor:pointer;padding:13px 15px;display:flex;align-items:center;gap:12px}
+  details.day>summary::-webkit-details-marker{display:none}
+  .day-no{width:46px;height:46px;border-radius:12px;display:flex;flex-direction:column;align-items:center;
+    justify-content:center;color:#fff;font-size:11px;flex:none;letter-spacing:1px}
+  .day-no b{font-size:18px;line-height:1}
+  .d1 .day-no{background:var(--orange)}
+  .d2 .day-no{background:var(--brand)}
+  .d3 .day-no{background:var(--plum)}
+  .day-head{flex:1;min-width:0}
+  .day-head b{font-size:15px}
+  .day-head small{display:block;color:var(--sub);font-size:12px}
+  .today{font-size:10px;font-weight:700;color:#fff;background:var(--brand);border-radius:20px;padding:2px 7px}
+  .arrow{color:var(--sub);transition:transform .25s;flex:none}
+  details.day[open] .arrow{transform:rotate(180deg)}
+  .day-body{padding:0 15px 14px}
+  .route-mini{background:var(--brand-soft);border-radius:10px;padding:9px 11px;margin-bottom:12px;font-size:12px;color:var(--sub)}
+  .route-mini .stops{display:flex;flex-wrap:wrap;gap:4px;align-items:center;margin-top:5px}
+  .route-mini .s{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:1px 7px;color:var(--ink)}
+  .route-mini .sep{color:var(--sub)}
+  .callout{border-radius:10px;padding:9px 11px;font-size:12.5px;margin:0 0 12px;line-height:1.55}
+  .callout.warn{background:var(--warn-soft);color:var(--warn)}
+  .callout b{color:inherit}
+  .tl{position:relative}
+  .tl::before{content:"";position:absolute;left:78px;top:6px;bottom:4px;width:2px;background:var(--line);border-radius:2px}
+  .tl-item{position:relative;display:grid;grid-template-columns:72px 1fr;column-gap:20px;padding:0 0 16px}
+  .tl-item:last-child{padding-bottom:2px}
+  .tl-item::before{content:"";position:absolute;left:73px;top:5px;width:13px;height:13px;border-radius:50%;
+    background:var(--card);border:3px solid var(--line);transition:.25s;z-index:1}
+  .d1 .tl-item::before{border-color:var(--orange)}
+  .d2 .tl-item::before{border-color:var(--brand)}
+  .d3 .tl-item::before{border-color:var(--plum)}
+  .tl-time{grid-column:1;text-align:right;font-size:11px;line-height:1.5;color:var(--sub);font-weight:700;
+    font-variant-numeric:tabular-nums;white-space:nowrap;padding-top:2px;letter-spacing:-.2px}
+  .tl-body{grid-column:2;min-width:0}
+  .tl-main{font-size:14px;font-weight:700;margin:1px 0}
+  .tl-desc{font-size:12.5px;color:var(--sub)}
+  .tl-item.other{opacity:.42}
+  .other-tag{font-size:10px;color:var(--sub);border:1px solid var(--line);border-radius:20px;padding:0 6px;margin-left:4px}
+  .tl-item.live::before{background:var(--ok);border-color:var(--ok);box-shadow:0 0 0 3px var(--ok-soft)}
+  .tl-item.live .live-tag{display:inline-block}
+  .live-tag{display:none;font-size:10px;font-weight:700;color:#fff;background:var(--ok);border-radius:20px;padding:1px 7px;margin-left:6px}
+
+  /* ---------- 待办 ---------- */
+  .todo-group{font-size:13px;font-weight:700;color:var(--warn);margin:13px 0 5px;display:flex;align-items:center;gap:6px}
+  .todo-group.normal{color:var(--brand)}
+  ul.todo{list-style:none}
+  ul.todo li{position:relative;padding:8px 0 8px 25px;font-size:14px;border-bottom:1px dashed var(--line)}
+  ul.todo li:last-child{border-bottom:none}
+  ul.todo li::before{content:"";position:absolute;left:3px;top:15px;width:9px;height:9px;border-radius:50%;
+    border:2px solid var(--warn)}
+  ul.todo.normal li::before{border-color:var(--brand)}
+  ul.todo li small{display:block;color:var(--sub);font-size:12px;line-height:1.55}
+
+  /* ---------- 贴士 ---------- */
+  .tips{display:grid;gap:11px}
+  .tip-item{border-left:3px solid var(--brand);padding:1px 0 1px 11px;font-size:13px;color:var(--sub)}
+  .tip-item>b:first-child{color:var(--ink);display:block;font-size:14px;margin-bottom:1px}
+  .tip-item>b:not(:first-child){color:var(--ink)}
+  .cost{width:100%;border-collapse:collapse;font-size:12.5px;margin-top:4px}
+  .cost th,.cost td{text-align:left;padding:7px 4px;border-bottom:1px dashed var(--line);vertical-align:top}
+  .cost th{color:var(--sub);font-size:11.5px;font-weight:700}
+  .cost td:last-child{text-align:right;white-space:nowrap;font-weight:700;color:var(--ink)}
+  .cost .est{color:var(--sub);font-weight:400;font-size:11px}
+  .cost tr:last-child td{border-bottom:none}
+  footer{text-align:center;color:var(--sub);font-size:12px;margin-top:26px;line-height:1.9}
+  footer .fs{font-size:11px;opacity:.85}
+
+  /* ---------- 日/夜按钮 ---------- */
+  #themeToggle{position:fixed;top:10px;right:12px;z-index:40;width:38px;height:38px;border-radius:50%;
+    border:1px solid var(--line);background:var(--card);color:var(--ink);font-size:16px;cursor:pointer;
+    box-shadow:var(--shadow);line-height:1;font-family:inherit}
+  #themeToggle:active{transform:scale(.92)}
+  @media (max-width:360px){
+    .hero h1{font-size:24px}
+    .nrow .lb{width:40px}
+  }
 </style>
 </head>
-<body data-who="hz">
-<button type="button" id="theme-toggle" class="theme-toggle" aria-label="切换日间/夜间模式">🌙</button>
+<body>
+<button type="button" id="themeToggle" aria-label="切换日间 / 夜间配色">🌙</button>
 <div class="wrap">
 
   <header class="hero">
-    <h1>温岭 3 天 2 晚 · 山海开黑之旅</h1>
-    <div class="meta">2026.9.29（周二）– 10.1（周四）｜3 人（杭州 2 人 + 温州 1 人）｜两晚住市区电竞酒店不挪窝</div>
-    <div class="clock" id="bj-clock">北京时间 --:--:--</div>
+    <div class="kicker">WENLING · 2026</div>
+    <h1>温岭 3 天 2 晚<br>山海 · 开黑 · 小渔村</h1>
+    <svg class="wave" viewBox="0 0 132 10" fill="none" aria-hidden="true">
+      <path d="M1 7c8-6 16-6 24 0s16 6 24 0 16-6 24 0 16 6 24 0 16-6 24 0" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+    </svg>
+    <div class="meta">9.29 周二 – 10.1 周四（国庆）｜3 人｜两晚同一家酒店，不换房</div>
+    <div class="clock" id="bjClock">北京时间 --:--:--</div>
+    <div class="pill" id="heroPill">距发车 --</div>
   </header>
 
-  <!-- 1. 此刻关注 -->
-  <section class="card focus">
-    <div class="label">⏱ 此刻关注 · 现在该干嘛</div>
-    <div class="now-row">
-      <div class="now-label">现 在</div>
-      <div class="now-main" id="now-main">--</div>
-      <div class="now-sub" id="now-sub"></div>
+  <section class="card now" id="nowCard">
+    <div class="hd"><b>⏱ 现在该干嘛</b><span id="nowWho">杭州组视角</span></div>
+    <div class="nrow now-row">
+      <div class="lb">现在</div>
+      <div class="ct"><div class="m" id="nowMain">--</div><div class="s" id="nowSub"></div></div>
     </div>
-    <div class="now-row next">
-      <div class="now-label">接 下 来</div>
-      <div class="now-main" id="next-main">--</div>
-      <div class="now-sub" id="next-sub"></div>
-      <a id="next-nav" class="navbtn" style="display:none">🧭 导航去目的地</a>
+    <div class="nrow">
+      <div class="lb">接下来</div>
+      <div class="ct"><div class="m" id="nextMain">--</div><div class="s" id="nextSub"></div></div>
+      <a class="navbtn" id="nextNav" style="display:none" target="_blank" rel="noopener">导航</a>
     </div>
-    <div class="label" style="margin-top:12px;opacity:.75">距接下来的安排</div>
-    <div class="countdown">
-      <div class="cd-box"><b id="cd-d">--</b><span>天</span></div>
-      <div class="cd-box"><b id="cd-h">--</b><span>时</span></div>
-      <div class="cd-box"><b id="cd-m">--</b><span>分</span></div>
-      <div class="cd-box"><b id="cd-s">--</b><span>秒</span></div>
+    <div class="nrow">
+      <div class="lb">倒计时</div>
+      <div class="ct">
+        <div class="cd" id="cdBox"><span id="cdT">--</span> <span class="units" id="cdU"></span></div>
+        <div class="s" id="cdNote"></div>
+      </div>
     </div>
   </section>
 
-  <!-- 0. 身份切换 -->
-  <section class="card who">
-    <div class="who-label">👆 谁在看这份手册？切换后去程车票和倒计时会跟着变（选择会记住）</div>
-    <div class="seg">
-      <button type="button" id="btn-hz" class="active">杭州出发 · 2 人</button>
-      <button type="button" id="btn-luo">罗润智 · 温州方向</button>
-    </div>
-  </section>
-
-  <!-- 2. 总览地图 -->
   <section class="card">
-    <h2>行程总览地图 <span class="en">OVERVIEW MAP · 示意图非等比例</span></h2>
-    <div class="map-box">
-      <svg class="tourmap" viewBox="0 0 360 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="三日行程路线示意图">
-        <defs>
-          <filter id="wobble" x="-5%" y="-5%" width="110%" height="110%">
-            <feTurbulence type="fractalNoise" baseFrequency="0.014" numOctaves="2" seed="7" result="n"/>
-            <feDisplacementMap in="SourceGraphic" in2="n" scale="2.6"/>
-          </filter>
-        </defs>
-        <!-- 海面 -->
-        <path d="M210,180 Q260,150 360,170 L360,320 L150,320 Q170,250 210,180 Z" fill="var(--accent-soft)" opacity=".85"/>
-        <g stroke="var(--accent)" stroke-width="1.2" fill="none" opacity=".55">
-          <path d="M250,250 q8,-6 16,0 q8,6 16,0"/><path d="M288,278 q8,-6 16,0 q8,6 16,0"/>
-          <path d="M226,292 q8,-6 16,0 q8,6 16,0"/><path d="M300,218 q8,-6 16,0 q8,6 16,0"/>
-        </g>
-        <!-- 路线：Day1 橙 -->
-        <g filter="url(#wobble)" fill="none" stroke-width="3" stroke-linecap="round" stroke-dasharray="2 0">
-          <path d="M44,58 Q96,96 152,142" stroke="var(--orange)"/>
-          <path d="M168,140 Q232,92 292,66" stroke="var(--orange)"/>
-          <path d="M286,76 Q230,120 176,146" stroke="var(--orange)" stroke-dasharray="6 6" opacity=".7"/>
-        </g>
-        <!-- 路线：Day2 青 -->
-        <g filter="url(#wobble)" fill="none" stroke-width="3" stroke-linecap="round">
-          <path d="M176,158 Q240,176 296,206" stroke="var(--teal)"/>
-          <path d="M294,224 Q262,252 228,268" stroke="var(--teal)"/>
-          <path d="M212,266 Q180,220 168,164" stroke="var(--teal)" stroke-dasharray="6 6" opacity=".7"/>
-        </g>
-        <!-- 路线：Day3 紫 -->
-        <g filter="url(#wobble)" fill="none" stroke-width="3" stroke-linecap="round">
-          <path d="M150,142 Q96,100 54,68" stroke="var(--purple)" stroke-dasharray="2 7"/>
-        </g>
-        <!-- 点位 -->
-        <g font-size="11" font-weight="700" text-anchor="middle">
-          <!-- 温岭站 -->
-          <g class="map-dot" data-kw="温岭站">
-            <circle cx="38" cy="48" r="8" fill="var(--purple)"/><circle cx="38" cy="48" r="3" fill="#fff"/>
-            <text x="38" y="34" fill="var(--ink)" stroke="var(--card)" stroke-width="3" paint-order="stroke">温岭站</text>
-          </g>
-          <!-- 长屿硐天 -->
-          <g class="map-dot" data-kw="长屿硐天景区">
-            <circle cx="304" cy="58" r="8" fill="var(--orange)"/><circle cx="304" cy="58" r="3" fill="#fff"/>
-            <text x="304" y="44" fill="var(--ink)" stroke="var(--card)" stroke-width="3" paint-order="stroke">长屿硐天</text>
-          </g>
-          <!-- 酒店 -->
-          <g class="map-dot" data-kw="温岭安迪电竞酒店">
-            <rect x="146" y="134" width="28" height="22" rx="5" fill="var(--accent)"/>
-            <text x="160" y="150" fill="#fff">住</text>
-            <text x="160" y="174" fill="var(--ink)" stroke="var(--card)" stroke-width="3" paint-order="stroke">安迪电竞酒店(2晚)</text>
-          </g>
-          <!-- 小交陈 -->
-          <g class="map-dot" data-kw="小交陈村">
-            <circle cx="306" cy="214" r="8" fill="var(--teal)"/><circle cx="306" cy="214" r="3" fill="#fff"/>
-            <text x="306" y="205" fill="var(--ink)" stroke="var(--card)" stroke-width="3" paint-order="stroke">小交陈·水桶岙</text>
-          </g>
-          <!-- 小箬村 -->
-          <g class="map-dot" data-kw="七彩小箬村">
-            <circle cx="216" cy="276" r="8" fill="var(--teal)"/><circle cx="216" cy="276" r="3" fill="#fff"/>
-            <text x="216" y="298" fill="var(--ink)" stroke="var(--card)" stroke-width="3" paint-order="stroke">七彩小箬村</text>
-          </g>
-        </g>
-        <!-- 指南针 -->
-        <g transform="translate(328,30)" opacity=".7">
-          <circle cx="0" cy="0" r="11" fill="var(--card)" stroke="var(--line)"/>
-          <path d="M0,-7 L3,3 L0,1 L-3,3 Z" fill="var(--danger)"/>
-          <text x="0" y="-14" font-size="9" text-anchor="middle" fill="var(--sub)">N</text>
-        </g>
-      </svg>
+    <div class="who-note">👆 谁在看这份手册？切换后去程车票、倒计时和行程线都会跟着变（选择记在这台手机上）</div>
+    <div class="seg">
+      <button type="button" id="btnHz" class="active">杭州组<small>我和同伴 · 2 人</small></button>
+      <button type="button" id="btnWz">罗润智<small>温州出发 · 1 人</small></button>
     </div>
+  </section>
+
+  <section class="card">
+    <h2>行程总览地图 <span class="en">示意图 · 非等比例</span></h2>
+    <svg class="tourmap" viewBox="0 0 360 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="温岭三日行程示意图">
+      <defs>
+        <filter id="hand" x="-8%" y="-8%" width="116%" height="116%">
+          <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="2" seed="5" result="n"/>
+          <feDisplacementMap in="SourceGraphic" in2="n" scale="2.2"/>
+        </filter>
+        <linearGradient id="seaG" x1="0" y1="0" x2="0.3" y2="1">
+          <stop offset="0" stop-color="var(--sea)" stop-opacity=".22"/>
+          <stop offset="1" stop-color="var(--sea)" stop-opacity=".4"/>
+        </linearGradient>
+      </defs>
+
+      <rect x="0" y="0" width="360" height="330" rx="12" fill="var(--card)"/>
+
+      <!-- 东海 -->
+      <path d="M0,302 C62,286 112,296 170,282 C232,266 272,248 302,230 C324,216 342,207 360,203 L360,330 L0,330 Z"
+            fill="url(#seaG)"/>
+      <path d="M0,302 C62,286 112,296 170,282 C232,266 272,248 302,230 C324,216 342,207 360,203"
+            fill="none" stroke="var(--sea)" stroke-width="2" stroke-linecap="round" filter="url(#hand)"/>
+      <g fill="none" stroke="var(--sea)" stroke-width="1.6" stroke-linecap="round" opacity=".6">
+        <path d="M206,300 q9,-7 18,0 q9,7 18,0"/>
+        <path d="M262,282 q9,-7 18,0 q9,7 18,0"/>
+        <path d="M300,312 q9,-7 18,0 q9,7 18,0"/>
+        <path d="M150,314 q9,-7 18,0 q9,7 18,0"/>
+      </g>
+      <text x="326" y="252" fill="var(--sea)" font-size="13" font-weight="700" letter-spacing="4"
+            transform="rotate(-16 326 252)" opacity=".8">东海</text>
+
+      <!-- 路线 -->
+      <g fill="none" stroke-width="2.6" stroke-linecap="round" filter="url(#hand)">
+        <path d="M58,64 C102,96 120,124 142,148" stroke="var(--plum)"/>
+        <path d="M142,148 C196,116 234,88 266,68" stroke="var(--orange)"/>
+        <path d="M266,68 C226,116 178,140 148,160" stroke="var(--orange)" stroke-dasharray="7 6" opacity=".65"/>
+        <path d="M148,160 C186,186 212,208 232,226" stroke="var(--sea)"/>
+        <path d="M232,226 C262,206 288,190 300,176" stroke="var(--sea)"/>
+        <path d="M300,176 C312,186 320,196 326,206" stroke="var(--sea)"/>
+        <path d="M300,176 C246,198 182,182 150,164" stroke="var(--sea)" stroke-dasharray="7 6" opacity=".6"/>
+      </g>
+
+      <!-- 点位 -->
+      <g font-size="11.5" font-weight="700" text-anchor="middle">
+        <g class="map-dot" data-kw="温岭站" data-city="331081">
+          <circle cx="58" cy="64" r="15" fill="transparent"/>
+          <circle cx="58" cy="64" r="6.5" fill="var(--plum)"/><circle cx="58" cy="64" r="2.4" fill="#fff"/>
+          <text x="58" y="46" fill="var(--ink)" stroke="var(--card)" stroke-width="3.5" paint-order="stroke">温岭站</text>
+        </g>
+        <g class="map-dot" data-kw="长屿硐天" data-city="331081">
+          <circle cx="266" cy="68" r="15" fill="transparent"/>
+          <circle cx="266" cy="68" r="6.5" fill="var(--orange)"/><circle cx="266" cy="68" r="2.4" fill="#fff"/>
+          <text x="266" y="50" fill="var(--ink)" stroke="var(--card)" stroke-width="3.5" paint-order="stroke">长屿硐天</text>
+        </g>
+        <g class="map-dot" data-kw="温岭安迪电竞酒店" data-city="331081">
+          <circle cx="142" cy="150" r="17" fill="transparent"/>
+          <rect x="130" y="140" width="24" height="20" rx="5" fill="var(--brand)"/>
+          <text x="142" y="154" fill="#fff" font-size="11">住</text>
+          <text x="142" y="178" fill="var(--ink)" stroke="var(--card)" stroke-width="3.5" paint-order="stroke">安迪电竞酒店</text>
+        </g>
+        <g class="map-dot" data-kw="尚书坊" data-city="331081">
+          <circle cx="186" cy="128" r="14" fill="transparent"/>
+          <circle cx="186" cy="128" r="4.6" fill="var(--brand)"/>
+          <text x="196" y="120" fill="var(--ink)" stroke="var(--card)" stroke-width="3.5" paint-order="stroke" text-anchor="start">尚书坊小吃</text>
+        </g>
+        <g class="map-dot" data-kw="东辉公园" data-city="331081">
+          <circle cx="88" cy="186" r="14" fill="transparent"/>
+          <circle cx="88" cy="186" r="4.6" fill="var(--brand)"/>
+          <text x="88" y="205" fill="var(--ink)" stroke="var(--card)" stroke-width="3.5" paint-order="stroke">东辉公园</text>
+        </g>
+        <g class="map-dot" data-kw="小交陈村" data-city="331081">
+          <circle cx="232" cy="226" r="15" fill="transparent"/>
+          <circle cx="232" cy="226" r="6.5" fill="var(--sea)"/><circle cx="232" cy="226" r="2.4" fill="#fff"/>
+          <text x="222" y="214" fill="var(--ink)" stroke="var(--card)" stroke-width="3.5" paint-order="stroke" text-anchor="end">小交陈 · 水桶岙</text>
+        </g>
+        <g class="map-dot" data-kw="石塘镇" data-city="331081">
+          <circle cx="300" cy="176" r="14" fill="transparent"/>
+          <circle cx="300" cy="176" r="5" fill="var(--sea)"/>
+          <text x="300" y="160" fill="var(--ink)" stroke="var(--card)" stroke-width="3.5" paint-order="stroke">石塘镇</text>
+        </g>
+        <g class="map-dot" data-kw="七彩小箬村" data-city="331081">
+          <circle cx="326" cy="206" r="14" fill="transparent"/>
+          <circle cx="326" cy="206" r="5" fill="var(--orange)"/>
+          <text x="340" y="198" fill="var(--ink)" stroke="var(--card)" stroke-width="3.5" paint-order="stroke" text-anchor="end">七彩小箬村</text>
+        </g>
+        <g class="map-dot" data-kw="麒麟山观景台" data-city="331081">
+          <circle cx="280" cy="228" r="14" fill="transparent"/>
+          <circle cx="280" cy="228" r="5" fill="var(--orange)"/>
+          <text x="268" y="248" fill="var(--ink)" stroke="var(--card)" stroke-width="3.5" paint-order="stroke" text-anchor="end">麒麟山观景台</text>
+        </g>
+      </g>
+
+      <!-- 指南针 -->
+      <g transform="translate(330,40)" opacity=".75">
+        <circle cx="0" cy="0" r="12" fill="var(--card)" stroke="var(--line)"/>
+        <path d="M0,-7 L3.2,3.2 L0,1.2 L-3.2,3.2 Z" fill="var(--warn)"/>
+        <text x="0" y="-16" font-size="10" text-anchor="middle" fill="var(--sub)" font-weight="700">N</text>
+      </g>
+    </svg>
     <div class="legend">
-      <span><i style="background:var(--orange)"></i>Day1 到站·硐天</span>
-      <span><i style="background:var(--teal)"></i>Day2 徒步·渔村</span>
-      <span><i style="background:var(--purple)"></i>Day3 返程</span>
+      <span><i style="background:var(--plum)"></i>到站 / 返程</span>
+      <span><i style="background:var(--orange)"></i>Day1 硐天</span>
+      <span><i style="background:var(--sea)"></i>Day2 山海</span>
       <span>虚线＝返程</span>
     </div>
-    <div class="map-note">👆 点击地图上的任意地点，直接唤起高德地图导航；页面本身离线也能看。</div>
+    <div class="map-note">👆 点地图上任意地点，或下面每一段的「导航」，都会直接唤起高德地图（没装高德会跳网页版）。</div>
   </section>
 
-  <!-- 3. 已确认订单 -->
   <section class="card">
-    <h2>🎫 已确认的车票 / 酒店 / 门票</h2>
+    <h2>🎫 已确认的车票 · 酒店 <span class="en">已出票 / 已预订</span></h2>
 
-    <div class="booking only-hz">
-      <div class="bk-title"><span>去程 · 9月29日 周二（杭州 2 人）</span><span class="badge ok">已出票</span></div>
+    <div class="tk" id="tkHz">
+      <div class="tk-hd"><span>去程 · 9月29日 周二</span><span><span class="who-tag" id="tagHz" style="display:none">你的票</span> <span class="badge ok">已出票</span></span></div>
       <div class="train">
-        <div class="station"><div class="t">08:53</div><small>杭州东</small></div>
-        <div class="mid"><div class="code">G3021</div></div>
-        <div class="station"><div class="t">10:45</div><small>温岭</small></div>
+        <div class="st"><div class="t">08:53</div><small>杭州东</small></div>
+        <div class="mid"><div class="code">G3021</div>二等座</div>
+        <div class="st"><div class="t">10:45</div><small>温岭</small></div>
       </div>
-      <div class="bk-desc">二等座 · ¥135/人 · 建议 08:00 前到杭州东站</div>
-      <a class="navbtn" data-kw="杭州东站" data-city="330100">导航到杭州东站</a>
-      <a class="navbtn" data-kw="温岭站" data-city="331081">导航到温岭站</a>
+      <div class="desc">我和同伴 2 人 · 全程 1 小时 52 分 · <b>08:10 前到杭州东站</b>最稳（进站 + 找检票口）</div>
+      <div class="btns">
+        <a class="navbtn ghost" data-kw="杭州东站" data-city="330100">导航去杭州东站</a>
+        <a class="navbtn ghost" data-kw="温岭站" data-city="331081">导航去温岭站</a>
+      </div>
     </div>
 
-    <div class="booking only-luo">
-      <div class="bk-title"><span>去程 · 9月29日 周二（罗润智）</span><span class="badge ok">已出票</span></div>
+    <div class="tk" id="tkWz">
+      <div class="tk-hd"><span>去程 · 9月29日 周二</span><span><span class="who-tag" id="tagWz" style="display:none">你的票</span> <span class="badge ok">已出票</span></span></div>
       <div class="train">
-        <div class="station"><div class="t">09:01</div><small>温州北</small></div>
-        <div class="mid"><div class="code">G7568</div></div>
-        <div class="station"><div class="t">09:33</div><small>温岭</small></div>
+        <div class="st"><div class="t">09:01</div><small>温州北</small></div>
+        <div class="mid"><div class="code">G7568</div>二等座</div>
+        <div class="st"><div class="t">09:33</div><small>温岭</small></div>
       </div>
-      <div class="bk-desc">本车苍南始发，经瑞安 08:40 沿途站可上车，具体乘车站以他 12306 为准</div>
-      <div class="bk-desc"><b>09:33 到温岭，比杭州组早 1 小时 12 分</b>——到站直接打车去酒店寄存行李，等大部队 11:40 汇合</div>
-      <a class="navbtn" data-kw="温州北站" data-city="330300">导航到温州北站</a>
-      <a class="navbtn" data-kw="温岭站" data-city="331081">导航到温岭站</a>
-      <a class="navbtn" data-kw="温岭安迪电竞酒店" data-city="331081">导航去酒店</a>
+      <div class="desc">罗润智 1 人 · 本车苍南始发，经瑞安 08:40 · 比杭州组早 <b>1 小时 12 分</b>到站</div>
+      <div class="desc">到站直接打车去酒店寄存行李，然后在老城区逛逛等大部队（约 11:35 汇合）</div>
+      <div class="flag">⚠️ 温州北 → 温岭只有 32 分钟，比常规车次紧。出发前请再核对一次票面：<b>发车站是温州北还是温州南</b>，一切以 12306 票面为准。</div>
+      <div class="btns">
+        <a class="navbtn ghost" data-kw="温州北站" data-city="330300">导航去温州北站</a>
+        <a class="navbtn ghost" data-kw="温岭安迪电竞酒店" data-city="331081">导航去酒店</a>
+      </div>
     </div>
 
-    <div class="booking">
-      <div class="bk-title"><span>返程 · 10月1日 周四（国庆）· 全员 3 人</span><span class="badge ok">已出票</span></div>
+    <div class="tk">
+      <div class="tk-hd"><span>返程 · 10月1日 周四（国庆）</span><span class="badge ok">三人同车 · 已出票</span></div>
       <div class="train">
-        <div class="station"><div class="t">18:06</div><small>温岭</small></div>
-        <div class="mid"><div class="code">G7716</div></div>
-        <div class="station"><div class="t">19:42</div><small>杭州东</small></div>
+        <div class="st"><div class="t">18:06</div><small>温岭</small></div>
+        <div class="mid"><div class="code">G7716</div>二等座</div>
+        <div class="st"><div class="t">19:42</div><small>杭州东</small></div>
       </div>
-      <div class="bk-desc">二等座 · ¥131/人 · 17:00 前必须到站安检 · 三人同一班，19:42 一起到杭州东</div>
+      <div class="desc">三人一起回杭州东 · 国庆首日务必 <b>16:00 前从酒店出发</b>、<b>17:00 前进站</b></div>
+      <div class="desc">备选：若临时想改上午的直达车，需要 07:30 前从酒店出发（本次不涉及）</div>
     </div>
 
-    <div class="booking">
-      <div class="bk-title"><span>住宿 · 两晚不换店</span><span class="badge ok">已预订</span></div>
-      <div style="margin-top:6px"><b>温岭安迪电竞酒店</b>（电竞海贼王三床房）</div>
-      <div class="kv">地址：<b>太平街道人民西路316号5楼</b>（老城区中心，步行可达尚书坊小吃街）</div>
-      <div class="kv">房型：45㎡ · 3张1.2米单人床 · 3060ti + i5-12代</div>
-      <div class="kv">9.29 入住（13:00 后）— 10.1 <b>12:30 前退房</b> · 可免费寄存行李 · 无早餐</div>
-      <a class="navbtn" data-kw="温岭安迪电竞酒店" data-city="331081">高德导航去酒店</a>
+    <div class="tk">
+      <div class="tk-hd"><span>住宿 · 两晚不换房</span><span class="badge ok">已预订</span></div>
+      <div class="kv" style="font-size:15px;color:var(--ink);font-weight:700;margin-top:7px">温岭安迪电竞酒店 · 电竞海贼王三床房</div>
+      <div class="kv">地址：<b>台州市温岭市太平街道人民西路 316 号 5 楼</b>（老城区中心，步行可达尚书坊小吃一带）</div>
+      <div class="kv">房型：45㎡ · 3 张 1.2 米床 · 3060Ti + i5-12 代 · 可住 3 人</div>
+      <div class="kv">入住：9.29 起 13:00 后可入住 ｜ 退房：10.1 <b>12:30 前</b> ｜ 共 2 晚</div>
+      <div class="kv">无早餐 ｜ <b>可免费寄存行李</b> ｜ 约 ¥230/晚（3 人平摊约 ¥153/人 2 晚）</div>
+      <div class="btns"><a class="navbtn" data-kw="温岭安迪电竞酒店" data-city="331081">导航去酒店</a></div>
     </div>
 
-    <div class="booking">
-      <div class="bk-title"><span>门票</span><span class="badge info">部分需预约</span></div>
-      <div class="kv" style="margin-top:6px">
-        <b>长屿硐天</b>：7:30–17:00，联票约 ¥112/人，<b>9.28 提前在官方公众号/携程实名预约</b>；
-        观夕硐因设备检修暂关，出发前一天复核是否恢复。
-      </div>
-      <div class="kv"><span class="tag free">免费</span>小箬村 · 麒麟山观景台 · 滨海绿道 · 水桶岙徒步</div>
-      <div class="kv"><span class="tag free">可选</span>金沙滩 ¥30/人（看体力和时间决定）</div>
+    <div class="tk">
+      <div class="tk-hd"><span>门票</span><span class="badge info">9.28 前预约</span></div>
+      <div class="kv">长屿硐天：联票约 <b>¥112/人</b>，开放 <b>7:30–17:00</b>；硐内音乐厅免费古乐演出 10:00 / 13:30 / 14:30 / 15:30。</div>
+      <div class="kv">免费项：七彩小箬村 · 麒麟山观景台 · 水桶岙徒步 · 东辉公园 · 锦屏公园。</div>
+      <div class="flag">🟡 行前确认：观夕硐自 8 月底起检修关闭，出发前在公众号「长屿硐天」问一下恢复没有（会影响能逛的硐）。</div>
     </div>
   </section>
 
-  <!-- 4. 逐日行程 -->
-  <section style="margin-top:18px">
-    <h2 style="font-size:17px;padding:0 4px 2px">🗓 逐日行程</h2>
+  <h2 class="dayhd">🗓 逐日行程</h2>
+  <div id="days"></div>
+  <noscript><p style="padding:10px 4px;color:#5e6b77">上面这段逐日行程需要浏览器开启 JavaScript 才会显示，车票、待办和贴士不受影响。</p></noscript>
 
-    <details class="day d1" id="day1">
-      <summary>
-        <div class="day-no">DAY<b>1</b></div>
-        <div class="day-head"><b>9.29 周二</b><small>到站汇合 · 长屿硐天 · 市区开黑</small></div>
-        <div class="arrow">▾</div>
-      </summary>
-      <div class="day-body">
-        <div class="route-mini">
-          当日路线（打车 2 段）
-          <div class="stops">
-            <span class="s">温岭站</span><span class="sep">→</span>
-            <span class="s">酒店放行李</span><span class="sep">→</span>
-            <span class="s">尚书坊午饭</span><span class="sep">→</span>
-            <span class="s">长屿硐天</span><span class="sep">→</span>
-            <span class="s">回酒店开黑</span>
-          </div>
-        </div>
-        <div class="tl">
-          <div class="tl-item">
-            <div class="tl-time">08:53</div>
-            <div class="tl-main"><span class="tag rail">高铁</span>杭州 2 人 G3021 发车</div>
-            <div class="tl-desc">10:45 到温岭站</div>
-          </div>
-          <div class="tl-item">
-            <div class="tl-time">09:33</div>
-            <div class="tl-main"><span class="tag rail">高铁</span>罗润智 G7568 到温岭站</div>
-            <div class="tl-desc">温州北 09:01 发车；比大部队早 1 小时 12 分，直接打车去酒店寄存行李，附近先逛逛</div>
-          </div>
-          <div class="tl-item">
-            <div class="tl-time">11:00</div>
-            <div class="tl-main"><span class="tag taxi">打车</span>温岭站 → 酒店（约 15 公里 / 35–40 分钟 / 40–50 元）</div>
-            <div class="tl-desc">省钱可选市域铁路 S1 到南屏站再打车；罗润智已在酒店等</div>
-            <a class="navbtn" data-kw="温岭安迪电竞酒店" data-city="331081">导航去酒店</a>
-          </div>
-          <div class="tl-item">
-            <div class="tl-time">11:40</div>
-            <div class="tl-main">全员汇合 · 尚书坊 / 县前街午饭</div>
-            <div class="tl-desc">步行可达。嵌糕（记得让老板灌肉汤）、泡虾、咸豆腐脑。老贪吃街已拆迁，别跑空。</div>
-            <a class="navbtn" data-kw="尚书坊" data-city="331081">导航到尚书坊</a>
-          </div>
-          <div class="tl-item">
-            <div class="tl-time">13:40</div>
-            <div class="tl-main"><span class="tag taxi">打车</span>酒店 → 长屿硐天（约 12–15 公里 / 25 分钟 / 约 30 元）</div>
-          </div>
-          <div class="tl-item">
-            <div class="tl-time">14:00–17:00</div>
-            <div class="tl-main"><span class="tag book">需预约</span>长屿硐天（世界最大人工开凿硐穴群）</div>
-            <div class="tl-desc">游八仙岩、双门硐；观夕硐若开放，岩硐音乐厅 14:30 / 15:30 有古乐演出。洞内恒温，建议带件薄外套。</div>
-            <a class="navbtn" data-kw="长屿硐天景区" data-city="331081">导航到长屿硐天</a>
-          </div>
-          <div class="tl-item">
-            <div class="tl-time">17:30</div>
-            <div class="tl-main">回市区 · 晚饭 · 开黑</div>
-            <div class="tl-desc">老城区排档/小吃随意，电竞三床房今晚正式开张</div>
-          </div>
-        </div>
-      </div>
-    </details>
-
-    <details class="day d2" id="day2">
-      <summary>
-        <div class="day-no">DAY<b>2</b></div>
-        <div class="day-head"><b>9.30 周三</b><small>水桶岙 8km 徒步 · 小箬村日落（最累一天）</small></div>
-        <div class="arrow">▾</div>
-      </summary>
-      <div class="day-body">
-        <div class="route-mini">
-          当日路线（往返打车各 1 趟）
-          <div class="stops">
-            <span class="s">酒店</span><span class="sep">→</span>
-            <span class="s">小交陈停车场</span><span class="sep">→</span>
-            <span class="s">水桶岙环线</span><span class="sep">→</span>
-            <span class="s">石塘午饭</span><span class="sep">→</span>
-            <span class="s">小箬村·麒麟山</span><span class="sep">→</span>
-            <span class="s">回酒店</span>
-          </div>
-        </div>
-        <div class="callout warn">
-          <b>安全第一</b>
-          环线有多处 V 形陡坡和砂石土路，当地救援队年救援 20+ 次。必穿防滑运动鞋，带防晒、每人 2 瓶水；
-          下雨/台风天山路湿滑直接改室内方案，不要硬走。
-        </div>
-        <div class="tl" style="margin-top:12px">
-          <div class="tl-item">
-            <div class="tl-time">07:00</div>
-            <div class="tl-main">嵌糕当早饭，备水备干粮</div>
-            <div class="tl-desc">山上全程无商店、无公厕，停车场上完厕所再上山</div>
-          </div>
-          <div class="tl-item">
-            <div class="tl-time">07:40</div>
-            <div class="tl-main"><span class="tag taxi">打车</span>酒店 → 松门镇小交陈村停车场</div>
-            <div class="tl-desc">约 30 公里 / 50 分钟 / 70–90 元，停车费 20 元。建议提前一晚叫好车</div>
-            <a class="navbtn" data-kw="小交陈村" data-city="331081">导航到徒步起点</a>
-          </div>
-          <div class="tl-item">
-            <div class="tl-time">08:30–12:30</div>
-            <div class="tl-main"><span class="tag hike">徒步 8km</span>水桶岙小环线（"浙版麦理浩径"）</div>
-            <div class="tl-desc">
-              丰门岭凉亭走<b>左边上山</b>（先爬山后下沙滩，不走回头路）：
-              大岩山山脊线 → 大象岩 → 网红石缝 → 白骨礁折返 → 水桶岙沙滩。
-              边走边拍约 4 小时。<b>出发前用小程序"潮汐表精灵"查当天潮汐</b>，退潮沙滩才好玩。
-            </div>
-          </div>
-          <div class="tl-item">
-            <div class="tl-time">13:00</div>
-            <div class="tl-main"><span class="tag taxi">打车</span>转场石塘镇午饭（约 15–20 分钟）</div>
-            <div class="tl-desc">鱼面、炒绿豆面、海鲜面；堂食可选石塘人家 ☎ 0576-86731777、郭记大酒店 ☎ 0576-86722111</div>
-            <a class="navbtn" data-kw="石塘人家(石塘店)" data-city="331081">导航到石塘人家</a>
-          </div>
-          <div class="tl-item">
-            <div class="tl-time">14:30–17:00</div>
-            <div class="tl-main"><span class="tag free">免费</span>七彩小箬村</div>
-            <div class="tl-desc">马卡龙色渔村，小王子咖啡坐一坐；登麒麟山观景台占机位等日落</div>
-            <a class="navbtn" data-kw="七彩小箬村" data-city="331081">导航到小箬村</a>
-          </div>
-          <div class="tl-item">
-            <div class="tl-time">17:40</div>
-            <div class="tl-main">海上日落</div>
-            <div class="tl-desc">9 月底日落约 17:40。体力富余可日落前去尖山头<b>对戒观景平台</b>（360° 悬空，绿道电瓶车 30 元/人），累了就放弃。</div>
-            <a class="navbtn" data-kw="对戒观景平台" data-city="331081">导航到对戒观景台</a>
-          </div>
-          <div class="tl-item">
-            <div class="tl-time">18:30</div>
-            <div class="tl-main"><span class="tag taxi">打车</span>石塘 → 市区酒店（70–90 元 / 40–50 分钟）</div>
-            <div class="tl-desc">3 人平摊每人 25–30 元。石塘晚上车少，提前叫车或让餐厅帮忙叫。约 19:30 到酒店，夜宵开黑</div>
-          </div>
-        </div>
-      </div>
-    </details>
-
-    <details class="day d3" id="day3">
-      <summary>
-        <div class="day-no">DAY<b>3</b></div>
-        <div class="day-head"><b>10.1 周四 · 国庆</b><small>市区慢逛 · 退房 · 返程</small></div>
-        <div class="arrow">▾</div>
-      </summary>
-      <div class="day-body">
-        <div class="route-mini">
-          当日路线
-          <div class="stops">
-            <span class="s">酒店</span><span class="sep">→</span>
-            <span class="s">早茶+公园</span><span class="sep">→</span>
-            <span class="s">12:30 前退房</span><span class="sep">→</span>
-            <span class="s">午饭</span><span class="sep">→</span>
-            <span class="s">温岭站</span>
-          </div>
-        </div>
-        <div class="tl">
-          <div class="tl-item">
-            <div class="tl-time">08:30</div>
-            <div class="tl-main">不设闹钟，自然醒吃嵌糕</div>
-            <div class="tl-desc">罗润智和我们同一班 G7716，全员 17:00 前到温岭站，19:42 一起到杭州东</div>
-          </div>
-          <div class="tl-item">
-            <div class="tl-time">09:30–11:00</div>
-            <div class="tl-main">东辉公园 · 东辉阁 消食溜达</div>
-            <div class="tl-desc">酒店步行可达；想远一点可打车去五龙山公园看地标"石夫人"</div>
-            <a class="navbtn" data-kw="东辉公园" data-city="331081">导航到东辉公园</a>
-          </div>
-          <div class="tl-item">
-            <div class="tl-time">12:30</div>
-            <div class="tl-main"><b>退房截止</b>，行李寄存前台</div>
-            <div class="tl-desc">再吃一顿午饭，泡虾买几个带车上</div>
-          </div>
-          <div class="tl-item">
-            <div class="tl-time">16:00</div>
-            <div class="tl-main"><span class="tag taxi">打车</span>酒店 → 温岭站（国庆当天务必此时出发）</div>
-          </div>
-          <div class="tl-item">
-            <div class="tl-time">17:00 前</div>
-            <div class="tl-main">到站安检候车</div>
-            <div class="tl-desc">国庆首日进站排队比平时久，至少留 1 小时</div>
-          </div>
-          <div class="tl-item">
-            <div class="tl-time">18:06</div>
-            <div class="tl-main"><span class="tag rail">高铁</span>全员 G7716 发车</div>
-            <div class="tl-desc">三人同一班，19:42 到杭州东，到家群里报平安</div>
-          </div>
-        </div>
-      </div>
-    </details>
-  </section>
-
-  <!-- 5. 待办清单 -->
   <section class="card">
-    <h2>📝 待办清单 <span class="en">办完告诉我，我来更新页面</span></h2>
+    <h2>📝 待办清单 <span class="en">办完一项告诉我，我改页面</span></h2>
 
-    <div class="todo-group">紧急 · 尽快办</div>
+    <div class="todo-group">🔥 出发前必须做</div>
     <ul class="todo">
-      <li>9.28 实名预约 <b>9.29 下午长屿硐天门票 ×3</b><small>官方公众号"长屿硐天"或携程，国庆限流，不预约可能进不去</small></li>
+      <li>9.28 前预约 <b>长屿硐天门票 ×3</b>（9.29 当天）
+        <small>公众号「长屿硐天」，国庆限流，不预约可能进不去；顺便问观夕硐检修恢复没有</small></li>
+      <li>9.26 起每天看一眼 9.30 的潮汐和台风
+        <small>潮汐：小程序「潮汐表精灵」查石塘 / 松门；台风和雷雨会让 V 形陡坡变得很危险</small></li>
+      <li>出发前核对罗润智的票面发车站
+        <small>温州北 09:01 → 温岭 09:33 只有 32 分钟，票面站名以 12306 为准，别跑错站</small></li>
     </ul>
 
-    <div class="todo-group normal" style="color:var(--accent)">行前准备</div>
+    <div class="todo-group normal">🧳 行前准备</div>
     <ul class="todo normal">
-      <li>9.28 起每天看一次台风路径和温岭天气<small>雨天水桶岙改室内方案，我会提前给替代安排</small></li>
-      <li>9.29 晚查好 9.30 潮汐时间（小程序"潮汐表精灵"）<small>退潮时段水桶岙沙滩面积最大</small></li>
-      <li>确认长屿硐天观夕硐是否恢复开放<small>截至 9.17 仍在检修，恢复时间未定</small></li>
-      <li>提前一晚预约 9.30 早上去小交陈村的车<small>酒店前台/滴滴都可，回程也让司机留联系方式或约定接单</small></li>
-      <li>收拾装备：身份证、充电宝、防滑运动鞋、防晒衣帽、轻便雨衣、每人 2 瓶水</li>
-      <li>9.29 杭州 2 人 08:00 前到杭州东站；10.1 全员 17:00 前到温岭站</li>
+      <li>提前一晚约好 9.30 的车
+        <small>早上酒店 → 松门小交陈村；晚上石塘 → 市区。石塘晚上几乎打不到车，留司机电话或直接包车一天</small></li>
+      <li>装备到位：防滑运动/徒步鞋、每人 1.5–2L 水、防晒帽 + 袖套、薄外套、轻便雨衣、充电宝、身份证
+        <small>水桶岙全程无补给点、无厕所，停车场上厕所再上山</small></li>
+      <li>9.29 杭州组 08:10 前到杭州东；10.1 全员 17:00 前到温岭站</li>
+      <li>手机存好车票截图 + 把本页添加到主屏幕（离线也能看）</li>
     </ul>
   </section>
 
-  <!-- 6. 实用贴士 -->
   <section class="card">
     <h2>🧭 实用贴士</h2>
     <div class="tips">
-      <div class="tip-item"><b>吃什么</b>嵌糕、泡虾、咸豆腐脑当早饭；石塘吃鱼面、炒绿豆面、海鲜排档。老贪吃街 2022 年已拆，吃小吃去酒店旁尚书坊/县前街。</div>
-      <div class="tip-item"><b>打车口径</b>市区↔长屿硐天约 30 元；市区↔石塘/松门单程 70–90 元，3 人平摊很划算。石塘晚上车少，回程提前叫。</div>
-      <div class="tip-item"><b>徒步纪律</b>山脊全程暴晒无遮挡、无厕所无补给；跟紧丝带和人群，别走野路；白骨礁附近浪大不要下海游泳。</div>
-      <div class="tip-item"><b>开黑</b>酒店三床房配 3060ti + i5-12代、机械键盘、千兆 WiFi；贵重物品离房随身。</div>
-      <div class="tip-item"><b>天气备选</b>若 9.30 下雨：上午酒店开黑，下午雨小再去小箬村（村巷可逛）；水桶岙顺延或放弃，安全 &gt; 打卡。</div>
-      <div class="tip-item"><b>应急</b>报警 110 / 急救 120；12306 客服 12306；景区咨询 0576-86598151。</div>
+      <div class="tip-item"><b>吃什么</b>
+        市区老城区：嵌糕（让老板灌肉汤）、泡虾、咸豆腐脑、麦虾、炒绿豆面。石塘镇：鱼面、炒绿豆面、海鲜面。
+      </div>
+      <div class="tip-item"><b>避坑（已核实）</b>
+        ① 贪吃街 / 东门路 2022 年已征迁拆除，别按老攻略去，吃小吃去尚书坊、县前街一带。<br>
+        ② 水桶岙属于松门镇小交陈村，导航要搜「<b>小交陈村</b>」，搜「水桶岙」容易被带偏。<br>
+        ③ 丰门岭凉亭处走<b>左边上山</b>，先爬山后下沙滩，不走回头路。<br>
+        ④ 石塘看完日落回市区车很少，提前跟司机约好返程时间。
+      </div>
+      <div class="tip-item"><b>徒步纪律（9.30）</b>
+        8 公里小环线约 4 小时，多处 V 形陡坡和碎石路；山脊全程暴晒无遮挡。必穿防滑鞋，慢慢走不抢速度，浪大时不要下海。
+        <b>雨天或台风天直接取消</b>，改室内方案，安全大于打卡。
+      </div>
+      <div class="tip-item"><b>天气备选</b>
+        9.30 若下雨：上午改酒店开黑 + 老城区小吃，下午雨小再打车去小箬村（村巷能逛），水桶岙顺延或放弃。
+      </div>
+      <div class="tip-item"><b>费用参考（3 人平摊）</b>
+        <table class="cost">
+          <tr><th>项目</th><th>金额 / 人</th></tr>
+          <tr><td>住宿 2 晚（已确认 ¥230/晚）</td><td>≈ ¥153</td></tr>
+          <tr><td>长屿硐天联票（已确认）</td><td>≈ ¥112</td></tr>
+          <tr><td>高铁二等座</td><td class="est">按各自票面</td></tr>
+          <tr><td>市区 ↔ 长屿硐天打车 <span class="est">估</span></td><td>≈ ¥20</td></tr>
+          <tr><td>9.30 松门 + 石塘往返 <span class="est">估</span></td><td>≈ ¥110–160</td></tr>
+          <tr><td>吃饭 3 天 <span class="est">估</span></td><td>≈ ¥150–250</td></tr>
+          <tr><td><b>合计（不含高铁）</b></td><td>≈ ¥550–700</td></tr>
+        </table>
+        <div style="font-size:11.5px;margin-top:6px">除住宿和长屿硐天联票外，其余都是估算，以现场为准。</div>
+      </div>
+      <div class="tip-item"><b>离线怎么用</b>
+        iPhone：Safari 打开本页 → 分享 → 添加到主屏幕。安卓：Chrome 打开 → 右上角菜单 → 添加到主屏幕。
+        页面只有一个文件、不依赖任何外部资源，第一次打开后断网也能看。
+      </div>
+      <div class="tip-item"><b>应急</b>
+        报警 110 · 急救 120 · 铁路客服 12306。
+      </div>
     </div>
   </section>
 
   <footer>
     温岭 · 东海好望角，曙光首照地<br>
-    祝三兄弟山海归来，开黑连胜 🏆
+    祝三人山海归来、开黑连胜 🏆<br>
+    <span class="fs">页面只放车次、时刻、酒店等公开信息，不含证件号、订单号、座位号。<br>更新日期：2026-09-17</span>
   </footer>
 </div>
 
 <script>
 (function(){
   "use strict";
-  /* ---------- 高德导航：关键词唤起，无需坐标，打开 App/网页版 ---------- */
-  document.querySelectorAll("a.navbtn[data-kw]").forEach(function(a){
-    var kw = encodeURIComponent(a.getAttribute("data-kw"));
-    var city = a.getAttribute("data-city") || "331081";
-    a.href = "https://uri.amap.com/search?keyword=" + kw + "&city=" + city +
-             "&src=wenlingtrip&coordinate=gaode&callnative=1";
-    a.target = "_blank";
-    a.rel = "noopener";
-  });
 
-  /* ---------- 地图点位：点击任意地点唤起高德 ---------- */
-  document.querySelectorAll(".map-dot").forEach(function(g){
-    g.addEventListener("click", function(){
-      var kw = encodeURIComponent(g.getAttribute("data-kw"));
-      var city = g.getAttribute("data-city") || "331081";
-      window.open("https://uri.amap.com/search?keyword=" + kw + "&city=" + city +
-                  "&src=wenlingtrip&coordinate=gaode&callnative=1", "_blank");
-    });
-  });
+  /* ============ 1. 数据：一份，驱动「现在该干嘛」和逐日行程 ============ */
+  // w: a=全员 / hz=杭州组 / wz=罗润智   d: pre=出发前 / 1 2 3 = 第几天
+  var PLAN = [
+    // ---- 出发前提醒 ----
+    {s:"2026-09-17T00:00:00",e:"2026-09-24T00:00:00",w:"a",d:"pre",
+     t:"先清待办",x:"① 9/28 前把长屿硐天门票预约掉 ② 9/26 起每天查一次潮汐和台风"},
+    {s:"2026-09-24T00:00:00",e:"2026-09-26T00:00:00",w:"a",d:"pre",
+     t:"装备先备好",x:"防滑鞋先试穿；水袋、防晒、雨衣、充电宝、身份证找齐放一起"},
+    {s:"2026-09-26T00:00:00",e:"2026-09-28T00:00:00",w:"a",d:"pre",
+     t:"开始盯天气和潮汐",x:"小程序「潮汐表精灵」查 9/30 石塘潮汐，再看台风路径决定水桶岙走不走"},
+    {s:"2026-09-28T00:00:00",e:"2026-09-28T20:00:00",w:"a",d:"pre",
+     t:"今天之内预约长屿硐天门票",x:"公众号「长屿硐天」预约 9/29 的票；顺手确认观夕硐恢复没有"},
+    {s:"2026-09-28T20:00:00",e:"2026-09-29T06:45:00",w:"a",d:"pre",
+     t:"收装备 · 收拾行李",x:"徒步鞋、每人 1.5–2L 水、防晒、雨衣、充电宝、身份证，车票截图存手机"},
 
-  /* ---------- 北京时间（强制 UTC+8，跨时区不错点） ---------- */
-  function nowBJ(){
-    var d = new Date();
-    return new Date(d.getTime() + d.getTimezoneOffset()*60000 + 8*3600000);
-  }
-  function pad(n){ return (n<10?"0":"") + n; }
-  function fmtClock(d){ return pad(d.getHours())+":"+pad(d.getMinutes())+":"+pad(d.getSeconds()); }
+    // ---- Day 1 · 杭州组 ----
+    {s:"2026-09-29T06:45:00",e:"2026-09-29T07:15:00",w:"hz",d:"1",
+     t:"起床洗漱 · 出门前最后检查",x:"身份证、充电宝、车票截图"},
+    {s:"2026-09-29T07:15:00",e:"2026-09-29T08:10:00",w:"hz",d:"1",
+     t:"出发去杭州东站",x:"地铁或打车，把堵车时间算进去",nav:{kw:"杭州东站",city:"330100"}},
+    {s:"2026-09-29T08:10:00",e:"2026-09-29T08:53:00",w:"hz",d:"1",
+     t:"杭州东站候车",x:"进站安检后先看检票口，别卡点"},
+    {s:"2026-09-29T08:53:00",e:"2026-09-29T10:45:00",w:"hz",d:"1",tag:{c:"rail",x:"高铁"},
+     t:"G3021 杭州东 → 温岭",x:"二等座，全程 1 小时 52 分，车上补个觉"},
+    {s:"2026-09-29T10:45:00",e:"2026-09-29T11:00:00",w:"hz",d:"1",
+     t:"到温岭站 · 出站",x:"跟着指示牌走，出站口打车"},
+    {s:"2026-09-29T11:00:00",e:"2026-09-29T11:35:00",w:"hz",d:"1",tag:{c:"taxi",x:"打车"},
+     t:"打车去酒店",x:"约 15 公里 / 半小时左右（参考 40–55 元）",nav:{kw:"温岭安迪电竞酒店",city:"331081"}},
 
-  var clockEl = document.getElementById("bj-clock");
+    // ---- Day 1 · 罗润智 ----
+    {s:"2026-09-29T07:40:00",e:"2026-09-29T08:25:00",w:"wz",d:"1",
+     t:"出发去温州北站",x:"留足安检时间（票面站名以 12306 为准）",nav:{kw:"温州北站",city:"330300"}},
+    {s:"2026-09-29T08:25:00",e:"2026-09-29T09:01:00",w:"wz",d:"1",
+     t:"温州北站候车",x:"进站后先看检票口"},
+    {s:"2026-09-29T09:01:00",e:"2026-09-29T09:33:00",w:"wz",d:"1",tag:{c:"rail",x:"高铁"},
+     t:"G7568 温州北 → 温岭",x:"二等座，比杭州组早到 1 小时 12 分"},
+    {s:"2026-09-29T09:33:00",e:"2026-09-29T09:50:00",w:"wz",d:"1",
+     t:"到温岭站 · 出站"},
+    {s:"2026-09-29T09:50:00",e:"2026-09-29T10:20:00",w:"wz",d:"1",tag:{c:"taxi",x:"打车"},
+     t:"打车去酒店",x:"约 15 公里 / 半小时左右",nav:{kw:"温岭安迪电竞酒店",city:"331081"}},
+    {s:"2026-09-29T10:20:00",e:"2026-09-29T11:35:00",w:"wz",d:"1",
+     t:"酒店寄存行李 + 老城区溜达",x:"县前街 → 尚书坊踩点，找家咖啡或奶茶店等大部队",nav:{kw:"尚书坊",city:"331081"}},
 
-  /* ---------- 全程时间线（按身份切换）：驱动"现在 / 接下来 / 倒计时" ---------- */
-  function P(s,e,name,desc,nav,navcity){
-    return {s:s,e:e,name:name,desc:desc,nav:nav||null,city:navcity||"331081",sm:0,em:0};
-  }
-  var planHz = [
-    P("2026-09-29T07:40:00+08:00","2026-09-29T08:53:00+08:00","赶杭州东站候车","08:00 前到站取票安检，别卡点","杭州东站","330100"),
-    P("2026-09-29T08:53:00+08:00","2026-09-29T10:45:00+08:00","G3021 高铁途中","杭州东 → 温岭，车上补个觉"),
-    P("2026-09-29T10:45:00+08:00","2026-09-29T11:00:00+08:00","出站打车去酒店","约 35–40 分钟，罗润智已在酒店等","温岭安迪电竞酒店")
+    // ---- Day 1 · 全员 ----
+    {s:"2026-09-29T11:35:00",e:"2026-09-29T11:50:00",w:"a",d:"1",
+     t:"三人汇合 · 酒店寄存行李",x:"顺便问前台能不能先办入住手续（13:00 后房卡生效）",nav:{kw:"温岭安迪电竞酒店",city:"331081"}},
+    {s:"2026-09-29T11:50:00",e:"2026-09-29T13:10:00",w:"a",d:"1",
+     t:"尚书坊 / 县前街午饭",x:"嵌糕（让老板灌肉汤）、泡虾、咸豆腐脑",nav:{kw:"尚书坊",city:"331081"}},
+    {s:"2026-09-29T13:10:00",e:"2026-09-29T13:40:00",w:"a",d:"1",tag:{c:"taxi",x:"打车"},
+     t:"打车去长屿硐天",x:"约 15 公里 / 半小时（参考 30–45 元）",nav:{kw:"长屿硐天",city:"331081"}},
+    {s:"2026-09-29T13:40:00",e:"2026-09-29T14:25:00",w:"a",d:"1",
+     tag:[{c:"book",x:"需预约"},{c:"confirm",x:"观夕硐行前确认"}],
+     t:"长屿硐天 · 入园",x:"联票约 ¥112，7:30–17:00；观夕硐检修中，当天能不能进要看恢复情况",nav:{kw:"长屿硐天",city:"331081"}},
+    {s:"2026-09-29T14:25:00",e:"2026-09-29T15:20:00",w:"a",d:"1",
+     t:"硐内音乐厅 · 古乐演出",x:"免费，每天 10:00 / 13:30 / 14:30 / 15:30，赶 14:30 这场"},
+    {s:"2026-09-29T15:20:00",e:"2026-09-29T17:00:00",w:"a",d:"1",
+     t:"继续逛：双门硐 / 水云硐 / 八仙岩",x:"洞内恒温，带件薄外套"},
+    {s:"2026-09-29T17:00:00",e:"2026-09-29T17:40:00",w:"a",d:"1",tag:{c:"taxi",x:"打车"},
+     t:"打车回市区",x:"景区 17:00 关门，别恋战"},
+    {s:"2026-09-29T17:40:00",e:"2026-09-29T19:00:00",w:"a",d:"1",
+     t:"晚饭：温岭本地菜",x:"炒绿豆面、鱼面、麦虾、山粉糊；挑本地人多的老城区小馆"},
+    {s:"2026-09-29T19:00:00",e:"2026-09-29T19:30:00",w:"a",d:"1",
+     t:"回酒店办入住 · 洗澡",x:"拿房卡，行李这会儿才算真放下",nav:{kw:"温岭安迪电竞酒店",city:"331081"}},
+    {s:"2026-09-29T19:30:00",e:"2026-09-30T00:00:00",w:"a",d:"1",
+     t:"酒店开黑",x:"3060Ti + i5-12 代；明早 7:00 起，别太晚"},
+
+    // ---- Day 2 ----
+    {s:"2026-09-30T00:00:00",e:"2026-09-30T07:00:00",w:"a",d:"2",t:"睡觉"},
+    {s:"2026-09-30T07:00:00",e:"2026-09-30T07:20:00",w:"a",d:"2",
+     t:"起床 · 灌满水",x:"每人 1.5–2L，山上没有任何补给点"},
+    {s:"2026-09-30T07:20:00",e:"2026-09-30T07:40:00",w:"a",d:"2",
+     t:"早餐 + 买干粮",x:"嵌糕、包子、饭团都行，饿了才有力气"},
+    {s:"2026-09-30T07:40:00",e:"2026-09-30T08:30:00",w:"a",d:"2",
+     tag:[{c:"taxi",x:"打车"},{c:"confirm",x:"天气潮汐行前确认"}],
+     t:"打车去松门镇小交陈村停车场",x:"约 30 公里 / 50 分钟（参考 70–90 元）；导航一定搜「小交陈村」",nav:{kw:"小交陈村",city:"331081"}},
+    {s:"2026-09-30T08:30:00",e:"2026-09-30T09:00:00",w:"a",d:"2",tag:{c:"hike",x:"徒步 8km"},
+     t:"热身上山：小交陈村 → 丰门岭凉亭",x:"凉亭处走左边上山，先爬山后下沙滩，不走回头路"},
+    {s:"2026-09-30T09:00:00",e:"2026-09-30T10:00:00",w:"a",d:"2",
+     t:"大岩山山脊线",x:"一路海景；全程暴晒，帽子和防晒补起来"},
+    {s:"2026-09-30T10:00:00",e:"2026-09-30T11:00:00",w:"a",d:"2",
+     t:"V 形陡坡连续下切",x:"必须防滑鞋，慢慢走，别抢速度"},
+    {s:"2026-09-30T11:00:00",e:"2026-09-30T12:00:00",w:"a",d:"2",
+     tag:{c:"confirm",x:"退潮沙滩才好走"},
+     t:"水桶岙沙滩 · 礁石",x:"浪大时不要下海游泳；拍够了就收拾走人"},
+    {s:"2026-09-30T12:00:00",e:"2026-09-30T12:40:00",w:"a",d:"2",
+     t:"走回起点 · 拉伸换衣",x:"8 公里小环线，边走边拍约 4 小时"},
+    {s:"2026-09-30T12:40:00",e:"2026-09-30T13:00:00",w:"a",d:"2",tag:{c:"taxi",x:"打车"},
+     t:"打车转场石塘镇",x:"约 15–20 分钟"},
+    {s:"2026-09-30T13:00:00",e:"2026-09-30T14:00:00",w:"a",d:"2",
+     t:"石塘镇午饭",x:"鱼面、炒绿豆面、海鲜面",nav:{kw:"石塘镇",city:"331081"}},
+    {s:"2026-09-30T14:00:00",e:"2026-09-30T14:30:00",w:"a",d:"2",tag:{c:"taxi",x:"打车"},
+     t:"打车去七彩小箬村"},
+    {s:"2026-09-30T14:30:00",e:"2026-09-30T16:30:00",w:"a",d:"2",tag:{c:"free",x:"免费"},
+     t:"七彩小箬村",x:"马卡龙色渔村，慢慢拍，村里的咖啡店可以歇脚",nav:{kw:"七彩小箬村",city:"331081"}},
+    {s:"2026-09-30T16:30:00",e:"2026-09-30T17:10:00",w:"a",d:"2",
+     t:"上麒麟山观景台占机位",x:"日落前半小时到位最稳",nav:{kw:"麒麟山观景台",city:"331081"}},
+    {s:"2026-09-30T17:10:00",e:"2026-09-30T18:00:00",w:"a",d:"2",
+     t:"看日落",x:"9 月底大约 17:40 落山（具体以当天为准）"},
+    {s:"2026-09-30T18:00:00",e:"2026-09-30T19:20:00",w:"a",d:"2",tag:{c:"taxi",x:"打车"},
+     t:"打车回市区",x:"石塘晚上车少，务必提前约好司机（参考 80–120 元）"},
+    {s:"2026-09-30T19:20:00",e:"2026-09-30T20:20:00",w:"a",d:"2",
+     t:"市区晚饭",x:"今天太累，酒店附近随便吃点就好"},
+    {s:"2026-09-30T20:20:00",e:"2026-10-01T00:00:00",w:"a",d:"2",
+     t:"夜宵 + 开黑",x:"明天不设闹钟"},
+
+    // ---- Day 3 ----
+    {s:"2026-10-01T00:00:00",e:"2026-10-01T08:00:00",w:"a",d:"3",t:"睡觉",x:"今天不设闹钟"},
+    {s:"2026-10-01T08:00:00",e:"2026-10-01T08:40:00",w:"a",d:"3",
+     t:"起床 · 收拾行李",x:"12:30 前要退房，先把箱子收好"},
+    {s:"2026-10-01T08:40:00",e:"2026-10-01T09:20:00",w:"a",d:"3",
+     t:"老城区早餐二刷",x:"咸豆腐脑、麦虾、嵌糕，想吃哪个吃哪个"},
+    {s:"2026-10-01T09:20:00",e:"2026-10-01T10:40:00",w:"a",d:"3",tag:{c:"free",x:"免费"},
+     t:"东辉公园 · 东辉阁",x:"登阁看全城，酒店步行可达",nav:{kw:"东辉公园",city:"331081"}},
+    {s:"2026-10-01T10:40:00",e:"2026-10-01T11:20:00",w:"a",d:"3",tag:{c:"free",x:"免费"},
+     t:"锦屏公园",x:"湖边溜达消食",nav:{kw:"锦屏公园",city:"331081"}},
+    {s:"2026-10-01T11:20:00",e:"2026-10-01T12:10:00",w:"a",d:"3",
+     t:"午饭：温岭最后一顿",x:"海鲜面、炒绿豆面，泡虾打包几个上车"},
+    {s:"2026-10-01T12:10:00",e:"2026-10-01T12:30:00",w:"a",d:"3",
+     t:"回酒店退房 · 行李寄存前台",nav:{kw:"温岭安迪电竞酒店",city:"331081"}},
+    {s:"2026-10-01T12:30:00",e:"2026-10-01T14:30:00",w:"a",d:"3",
+     t:"市区自由活动",x:"体力够就去五龙山看「石夫人」（往返约 1.5 小时）；不想动就找家咖啡馆坐着",nav:{kw:"五龙山公园",city:"331081"}},
+    {s:"2026-10-01T14:30:00",e:"2026-10-01T15:50:00",w:"a",d:"3",
+     t:"回酒店取行李 · 检查房间",x:"充电器、数据线最容易忘"},
+    {s:"2026-10-01T15:50:00",e:"2026-10-01T16:30:00",w:"a",d:"3",tag:{c:"taxi",x:"打车"},
+     t:"打车去温岭站",x:"国庆路上堵，16:00 前一定出发（参考 40–60 元）",nav:{kw:"温岭站",city:"331081"}},
+    {s:"2026-10-01T16:30:00",e:"2026-10-01T18:06:00",w:"a",d:"3",
+     t:"进站安检 · 候车",x:"国庆首日至少提前 1 小时到站"},
+    {s:"2026-10-01T18:06:00",e:"2026-10-01T19:42:00",w:"a",d:"3",tag:{c:"rail",x:"高铁"},
+     t:"G7716 温岭 → 杭州东",x:"二等座，三人同一班"},
+    {s:"2026-10-01T19:42:00",e:"2026-10-01T20:00:00",w:"a",d:"3",
+     t:"到杭州东 · 出站",x:"到家群里报个平安"},
+    {s:"2026-10-01T20:00:00",e:"2026-10-03T00:00:00",w:"a",d:"3",
+     t:"🏁 收工",x:"3 天 2 晚结束，下次再约"}
   ];
-  var planLuo = [
-    P("2026-09-29T08:20:00+08:00","2026-09-29T09:01:00+08:00","赶温州北站候车","08:20 前到站取票安检，别卡点","温州北站","330300"),
-    P("2026-09-29T09:01:00+08:00","2026-09-29T09:33:00+08:00","G7568 高铁途中","温州北 → 温岭"),
-    P("2026-09-29T09:33:00+08:00","2026-09-29T10:20:00+08:00","到温岭站 · 打车去酒店","比大部队早 1 小时 12 分，先寄存行李","温岭安迪电竞酒店"),
-    P("2026-09-29T10:20:00+08:00","2026-09-29T11:40:00+08:00","酒店附近自由活动","喝杯咖啡养精蓄锐，等大部队 11:40 汇合","温岭安迪电竞酒店")
-  ];
-  var planCommon = [
-    P("2026-09-29T11:00:00+08:00","2026-09-29T11:40:00+08:00","酒店汇合休整","放行李、洗把脸、插上充电宝","温岭安迪电竞酒店"),
-    P("2026-09-29T11:40:00+08:00","2026-09-29T13:30:00+08:00","尚书坊 / 县前街午饭","嵌糕灌肉汤、泡虾、咸豆腐脑","尚书坊"),
-    P("2026-09-29T13:30:00+08:00","2026-09-29T14:00:00+08:00","打车去长屿硐天","约 25 分钟车程，车上眯一会","长屿硐天景区"),
-    P("2026-09-29T14:00:00+08:00","2026-09-29T17:00:00+08:00","游长屿硐天","八仙岩、双门硐；硐内恒温带薄外套","长屿硐天景区"),
-    P("2026-09-29T17:00:00+08:00","2026-09-29T17:40:00+08:00","打车回市区","返回老城区"),
-    P("2026-09-29T17:40:00+08:00","2026-09-30T01:00:00+08:00","晚饭 + 酒店开黑","电竞三床房今晚正式开张","温岭安迪电竞酒店"),
-    P("2026-09-30T07:00:00+08:00","2026-09-30T07:40:00+08:00","早餐 + 备水","嵌糕当早饭；每人再带 2 瓶水上山","温岭安迪电竞酒店"),
-    P("2026-09-30T07:40:00+08:00","2026-09-30T08:30:00+08:00","打车去小交陈村","约 50 分钟，到停车场先上厕所","小交陈村"),
-    P("2026-09-30T08:30:00+08:00","2026-09-30T12:30:00+08:00","水桶岙 8km 徒步","丰门岭左边上山→山脊→沙滩，边走边拍","小交陈村"),
-    P("2026-09-30T12:30:00+08:00","2026-09-30T13:00:00+08:00","打车转场石塘","约 15–20 分钟"),
-    P("2026-09-30T13:00:00+08:00","2026-09-30T14:30:00+08:00","石塘午饭","鱼面、炒绿豆面、海鲜面","石塘人家(石塘店)"),
-    P("2026-09-30T14:30:00+08:00","2026-09-30T17:00:00+08:00","七彩小箬村","马卡龙渔村拍照，小王子咖啡坐坐","七彩小箬村"),
-    P("2026-09-30T17:00:00+08:00","2026-09-30T18:00:00+08:00","麒麟山观日落","9 月底日落约 17:40，提前占机位","七彩小箬村"),
-    P("2026-09-30T18:00:00+08:00","2026-09-30T19:30:00+08:00","打车回市区酒店","石塘晚上车少，提前叫车","温岭安迪电竞酒店"),
-    P("2026-09-30T19:30:00+08:00","2026-10-01T01:00:00+08:00","夜宵 + 开黑","明早不设闹钟","温岭安迪电竞酒店"),
-    P("2026-10-01T07:30:00+08:00","2026-10-01T08:30:00+08:00","罗润智若上午班次：出发去车站","其他人继续睡回笼觉","温岭站"),
-    P("2026-10-01T08:30:00+08:00","2026-10-01T09:30:00+08:00","早餐嵌糕","泡虾买几个带车上当干粮","尚书坊"),
-    P("2026-10-01T09:30:00+08:00","2026-10-01T11:00:00+08:00","东辉公园消食溜达","酒店步行可达，想去远点打车去石夫人","东辉公园"),
-    P("2026-10-01T11:00:00+08:00","2026-10-01T12:30:00+08:00","回酒店收拾 · 12:30 前退房","行李寄存前台","温岭安迪电竞酒店"),
-    P("2026-10-01T12:30:00+08:00","2026-10-01T16:00:00+08:00","午饭 + 市区自由活动","咖啡厅坐坐或回酒店再开一局","温岭安迪电竞酒店"),
-    P("2026-10-01T16:00:00+08:00","2026-10-01T17:00:00+08:00","打车去温岭站","国庆务必 16:00 准时出发","温岭站"),
-    P("2026-10-01T17:00:00+08:00","2026-10-01T18:06:00+08:00","温岭站候车","国庆安检排队长，至少留 1 小时","温岭站"),
-    P("2026-10-01T18:06:00+08:00","2026-10-01T19:42:00+08:00","G7716 返程","三人同车，19:42 一起到杭州东")
-  ];
-  var plan = [];
-  function buildPlan(who){
-    plan = (who === "luo" ? planLuo : planHz).concat(planCommon).map(function(p){
-      p.sm = new Date(p.s).getTime();
-      p.em = new Date(p.e).getTime();
-      return p;
-    });
+
+  var DAYS = {
+    "1":{date:"9.29 周二",sub:"到站汇合 · 长屿硐天 · 市区开黑",
+         route:["温岭站","酒店放行李","尚书坊午饭","长屿硐天","回酒店开黑"]},
+    "2":{date:"9.30 周三",sub:"水桶岙 8km 徒步 · 小箬村日落（最累的一天）",
+         route:["酒店","小交陈停车场","水桶岙环线","石塘午饭","小箬村 · 麒麟山","回市区"]},
+    "3":{date:"10.1 周四 · 国庆",sub:"市区慢逛 · 退房 · 返程",
+         route:["酒店","东辉/锦屏公园","12:30 退房寄存","市区自由活动","温岭站"]}
+  };
+
+  var DEPART = {hz:{ts:"2026-09-29T08:53:00",from:"杭州东",no:"G3021"},
+                wz:{ts:"2026-09-29T09:01:00",from:"温州北",no:"G7568"}};
+  var END_TS = "2026-10-01T19:42:00";
+
+  /* ============ 2. 工具 ============ */
+  function ms(s){ return new Date(s + "+08:00").getTime(); }
+  function pad(n){ return (n < 10 ? "0" : "") + n; }
+  function bj(d){ return new Date(d.getTime() + (480 + d.getTimezoneOffset()) * 60000); }
+  function hm(s){
+    var d = bj(new Date(ms(s)));
+    return pad(d.getHours()) + ":" + pad(d.getMinutes());
   }
-  buildPlan("hz");
-
-  var elNowMain = document.getElementById("now-main"),
-      elNowSub = document.getElementById("now-sub"),
-      elNextMain = document.getElementById("next-main"),
-      elNextSub = document.getElementById("next-sub"),
-      elNextNav = document.getElementById("next-nav"),
-      elD = document.getElementById("cd-d"),
-      elH = document.getElementById("cd-h"),
-      elM = document.getElementById("cd-m"),
-      elSec = document.getElementById("cd-s");
-
-  function amapUrl(kw, city){
+  function span(s, e){ return e >= s ? (ms(e) - ms(s)) / 60000 : 0; }
+  function timeLabel(p){
+    var a = hm(p.s), b = hm(p.e);
+    if(b === "00:00" && p.e.slice(0, 10) !== p.s.slice(0, 10)){ b = "24:00"; }
+    return (span(p.s, p.e) >= 30) ? (a + "–" + b) : a;
+  }
+  function amap(kw, city){
     return "https://uri.amap.com/search?keyword=" + encodeURIComponent(kw) +
-           "&city=" + city + "&src=wenlingtrip&coordinate=gaode&callnative=1";
+           "&city=" + (city || "331081") + "&src=wenlingtrip&coordinate=gaode&callnative=1";
   }
-  function humanLeft(ms){
-    var m = Math.ceil(ms/60000);
-    if(m < 60){ return m + " 分钟"; }
-    return Math.floor(m/60) + " 小时" + (m%60 ? " " + (m%60) + " 分" : "");
+  function leftText(diff){
+    if(diff <= 0){ return "现在"; }
+    var m = Math.floor(diff / 60000), d = Math.floor(m / 1440), h = Math.floor(m % 1440 / 60), mi = m % 60;
+    if(d >= 1){ return d + " 天 " + h + " 小时"; }
+    if(h >= 1){ return h + " 小时 " + mi + " 分"; }
+    return mi + " 分钟";
   }
-  function preTripHint(left){
-    var days = Math.ceil(left/86400000);
-    if(days <= 1){ return "今天出发！检查身份证、充电宝，早点到站"; }
-    if(days <= 2){ return "该收拾装备：防滑运动鞋、防晒、雨衣、每人 2 瓶水"; }
-    return "先清待办：9.28 前预约长屿硐天门票 ×3，每天盯一次天气台风";
+  function clockText(diff){
+    var s = Math.max(0, Math.floor(diff / 1000));
+    var h = Math.floor(s / 3600), m = Math.floor(s % 3600 / 60), sec = s % 60;
+    return h > 0 ? (h + ":" + pad(m) + ":" + pad(sec)) : (pad(m) + ":" + pad(sec));
   }
-  function tick(){
-    var now = Date.now(), bj = nowBJ(), i, cur = null, next = null;
-    clockEl.textContent = "北京时间 " + fmtClock(bj) + "（所有时间按 UTC+8 计算）";
-    for(i=0;i<plan.length;i++){
-      if(plan[i].sm <= now && now < plan[i].em){ cur = plan[i]; }
-      if(plan[i].sm > now && !next){ next = plan[i]; }
-    }
-    if(cur){
-      elNowMain.textContent = "🟢 " + cur.name;
-      elNowSub.textContent = cur.desc + " · 还剩约 " + humanLeft(cur.em - now);
-    } else if(next){
-      if(now < plan[0].sm){
-        elNowMain.textContent = "🧳 出发前 · 自由时间";
-        elNowSub.textContent = preTripHint(next.sm - now);
-      } else {
-        elNowMain.textContent = "😴 休息 / 自由时间";
-        elNowSub.textContent = "养精蓄锐，按下面的安排走";
+  function isToday(t){
+    var a = bj(new Date(t)), b = bj(new Date());
+    return a.getFullYear() === b.getFullYear() && a.getMonth() === b.getMonth() && a.getDate() === b.getDate();
+  }
+
+  /* 预处理：加时间戳 + 排序 */
+  PLAN.forEach(function(p){ p.sm = ms(p.s); p.em = ms(p.e); });
+  PLAN.sort(function(a, b){ return a.sm - b.sm || a.em - b.em; });
+
+  /* ============ 3. 导航链接 ============ */
+  document.querySelectorAll("a.navbtn[data-kw]").forEach(function(a){
+    a.href = amap(a.getAttribute("data-kw"), a.getAttribute("data-city"));
+  });
+  document.querySelectorAll(".map-dot").forEach(function(g){
+    g.setAttribute("tabindex", "0");
+    g.setAttribute("role", "link");
+    var go = function(){
+      window.open(amap(g.getAttribute("data-kw"), g.getAttribute("data-city")), "_blank", "noopener");
+    };
+    g.addEventListener("click", go);
+    g.addEventListener("keypress", function(ev){ if(ev.key === "Enter"){ go(); } });
+  });
+
+  /* ============ 4. 视角切换 ============ */
+  var viewer = "hz";
+  var btnHz = document.getElementById("btnHz"), btnWz = document.getElementById("btnWz");
+  var tagHz = document.getElementById("tagHz"), tagWz = document.getElementById("tagWz");
+  var tkHz = document.getElementById("tkHz"), tkWz = document.getElementById("tkWz");
+
+  function applyViewer(){
+    btnHz.classList.toggle("active", viewer === "hz");
+    btnWz.classList.toggle("active", viewer === "wz");
+    tagHz.style.display = viewer === "hz" ? "" : "none";
+    tagWz.style.display = viewer === "wz" ? "" : "none";
+    tkHz.classList.toggle("mine", viewer === "hz");
+    tkWz.classList.toggle("mine", viewer === "wz");
+    document.getElementById("nowWho").textContent = viewer === "hz" ? "杭州组视角" : "罗润智视角";
+    renderDays();
+    markLive(Date.now());
+    tick();
+  }
+  btnHz.addEventListener("click", function(){ viewer = "hz"; save("wltrip-who", "hz"); applyViewer(); });
+  btnWz.addEventListener("click", function(){ viewer = "wz"; save("wltrip-who", "wz"); applyViewer(); });
+
+  function save(k, v){ try{ localStorage.setItem(k, v); }catch(e){} }
+  function load(k){ try{ return localStorage.getItem(k); }catch(e){ return null; } }
+
+  /* ============ 5. 渲染逐日行程 ============ */
+  var daysBox = document.getElementById("days");
+  var todayKey = (function(){
+    var d = bj(new Date());
+    return d.getFullYear() + "-" + pad(d.getMonth() + 1) + "-" + pad(d.getDate());
+  })();
+  var DATE_KEY = {"1":"2026-09-29","2":"2026-09-30","3":"2026-10-01"};
+  var DAY_CLS = {"1":"d1","2":"d2","3":"d3"};
+
+  function renderDays(){
+    var html = "";
+    ["1","2","3"].forEach(function(day){
+      var info = DAYS[day], items = PLAN.filter(function(p){ return p.d === day; });
+      var isToday = DATE_KEY[day] === todayKey;
+      html += '<details class="day ' + DAY_CLS[day] + '"' + (isToday ? " open" : "") + '>' +
+        '<summary><div class="day-no">DAY<b>' + day + '</b></div>' +
+        '<div class="day-head"><b>' + info.date + (isToday ? ' <span class="today">今天</span>' : '') + '</b>' +
+        '<small>' + info.sub + '</small></div><div class="arrow">▾</div></summary><div class="day-body">';
+
+      html += '<div class="route-mini">当日路线<div class="stops">';
+      info.route.forEach(function(s, i){
+        html += (i ? '<span class="sep">→</span>' : '') + '<span class="s">' + s + '</span>';
+      });
+      html += '</div></div>';
+
+      if(day === "2"){
+        html += '<div class="callout warn"><b>安全第一</b>环线有多处 V 形陡坡和碎石土路，' +
+                '必须防滑鞋；每人带够 1.5–2L 水，山脊全程无遮挡无补给。下雨或台风直接取消，不硬走。</div>';
       }
-    } else {
-      elNowMain.textContent = "🏁 行程已结束";
-      elNowSub.textContent = "三兄弟平安到家，群里报个平安";
+      html += '<div class="tl">';
+      items.forEach(function(p){
+        var other = (p.w !== "a" && p.w !== viewer);
+        var label = other ? (p.w === "hz" ? "杭州组" : "罗润智") : "";
+        var tags = "";
+        (Array.isArray(p.tag) ? p.tag : (p.tag ? [p.tag] : [])).forEach(function(t){
+          tags += '<span class="tag ' + t.c + '">' + t.x + '</span>';
+        });
+        html += '<div class="tl-item' + (other ? " other" : "") + '" data-t0="' + p.sm + '" data-t1="' + p.em + '">' +
+          '<div class="tl-time">' + timeLabel(p) + '</div>' +
+          '<div class="tl-body">' +
+            '<div class="tl-main">' + tags + p.t +
+            (other ? '<span class="other-tag">' + label + '</span>' : '<span class="live-tag">正在进行</span>') + '</div>' +
+            (p.x ? '<div class="tl-desc">' + p.x + '</div>' : '') +
+            (p.nav ? '<a class="navbtn ghost" href="' + amap(p.nav.kw, p.nav.city) + '" target="_blank" rel="noopener">导航 · ' + p.nav.kw + '</a>' : '') +
+          '</div>' +
+          '</div>';
+      });
+      html += '</div></div></details>';
+    });
+    daysBox.innerHTML = html;
+  }
+
+  /* 高亮"正在进行"那一段 */
+  function markLive(now){
+    var nodes = daysBox.querySelectorAll(".tl-item");
+    for(var i = 0; i < nodes.length; i++){
+      var n = nodes[i], t0 = +n.getAttribute("data-t0"), t1 = +n.getAttribute("data-t1");
+      var on = !n.classList.contains("other") && now >= t0 && now < t1;
+      n.classList.toggle("live", on);
     }
+  }
+
+  /* ============ 6. 现在该干嘛 ============ */
+  var elClock = document.getElementById("bjClock"), elPill = document.getElementById("heroPill");
+  var elNowMain = document.getElementById("nowMain"), elNowSub = document.getElementById("nowSub");
+  var elNextMain = document.getElementById("nextMain"), elNextSub = document.getElementById("nextSub");
+  var elNextNav = document.getElementById("nextNav");
+  var elCdT = document.getElementById("cdT"), elCdU = document.getElementById("cdU"), elCdNote = document.getElementById("cdNote");
+  var lastLiveCheck = 0;
+
+  function forMe(){ return PLAN.filter(function(p){ return p.w === "a" || p.w === viewer; }); }
+
+  function tick(){
+    var now = Date.now(), list = forMe(), cur = null, next = null, i, p;
+    for(i = 0; i < list.length; i++){
+      p = list[i];
+      if(p.sm <= now && now < p.em){ cur = p; }
+      if(p.sm > now && !next){ next = p; }
+    }
+    if(!cur && next){
+      for(i = list.length - 1; i >= 0; i--){ if(list[i].em <= now){ cur = list[i]; break; } }
+    }
+
+    var b = bj(new Date());
+    elClock.textContent = "北京时间 " + pad(b.getHours()) + ":" + pad(b.getMinutes()) + ":" + pad(b.getSeconds());
+
+    var dep = ms(DEPART[viewer].ts), end = ms(END_TS);
+    if(now < dep){
+      elPill.textContent = "距发车 " + leftText(dep - now) + " · " + DEPART[viewer].no + " " + DEPART[viewer].from + "出发";
+    } else if(now < end){
+      elPill.textContent = "行程进行中 · 10.1 18:06 返程";
+    } else {
+      elPill.textContent = "行程已完成 ✅";
+    }
+
+    // 现在
+    if(cur){
+      if(now >= cur.em){
+        elNowMain.textContent = "🧳 自由时间";
+        elNowSub.textContent = "上一段：" + cur.t + " · 按下面的安排继续";
+      } else {
+        elNowMain.textContent = "🟢 " + cur.t;
+        elNowSub.textContent = (cur.x ? cur.x + " · " : "") + "还剩约 " + leftText(cur.em - now);
+      }
+    } else if(next){
+      elNowMain.textContent = "🧳 出发前 · 自由时间";
+      elNowSub.textContent = (next.sm - dep < 0) ? "按待办清单准备，别临时抱佛脚" : "养精蓄锐，按下面的安排走";
+    } else {
+      elNowMain.textContent = "🏁 行程结束，收工";
+      elNowSub.textContent = "三天两晚顺利收官，下次再约";
+    }
+
+    // 接下来
     if(next){
-      var nd = new Date(next.sm + 8*3600000);
-      elNextMain.textContent = pad(nd.getUTCHours()) + ":" + pad(nd.getUTCMinutes()) + " · " + next.name;
-      elNextSub.textContent = next.desc;
+      elNextMain.textContent = (isToday(next.sm) ? hm(next.s) : ((bj(new Date(next.sm)).getMonth() + 1) + "/" +
+                              bj(new Date(next.sm)).getDate() + " " + hm(next.s))) + " · " + next.t;
+      elNextSub.textContent = next.x || "";
       if(next.nav){
         elNextNav.style.display = "";
-        elNextNav.href = amapUrl(next.nav, next.city);
-        elNextNav.target = "_blank";
-        elNextNav.rel = "noopener";
+        elNextNav.href = amap(next.nav.kw, next.nav.city);
       } else {
         elNextNav.style.display = "none";
       }
       var diff = next.sm - now;
-      elD.textContent = Math.floor(diff/86400000);
-      elH.textContent = pad(Math.floor(diff/3600000)%24);
-      elM.textContent = pad(Math.floor(diff/60000)%60);
-      elSec.textContent = pad(Math.floor(diff/1000)%60);
+      elCdT.textContent = diff >= 86400000 ? leftText(diff) : clockText(diff);
+      elCdU.textContent = "后开始";
+      elCdNote.textContent = (next.d === "pre" ? "下一项：" : "下一站：") + next.t;
     } else {
-      elNextMain.textContent = "没有啦，旅途收工 🎉";
+      elNextMain.textContent = "没有下一段了 🎉";
       elNextSub.textContent = "";
       elNextNav.style.display = "none";
-      elD.textContent = elH.textContent = elM.textContent = elSec.textContent = "0";
+      elCdT.textContent = "00:00";
+      elCdU.textContent = "";
+      elCdNote.textContent = "";
     }
-  }
-  tick();
-  setInterval(tick, 1000);
 
-  /* ---------- 身份切换（选择记忆在各自浏览器 localStorage） ---------- */
-  var btnHz = document.getElementById("btn-hz"),
-      btnLuo = document.getElementById("btn-luo");
-  function setWho(who, save){
-    document.body.setAttribute("data-who", who);
-    btnHz.classList.toggle("active", who === "hz");
-    btnLuo.classList.toggle("active", who === "luo");
-    buildPlan(who);
-    if(save){ try{ localStorage.setItem("wltrip-who", who); }catch(e){} }
-    tick();
+    if(now - lastLiveCheck > 15000){ lastLiveCheck = now; markLive(now); }
   }
-  btnHz.addEventListener("click", function(){ setWho("hz", true); });
-  btnLuo.addEventListener("click", function(){ setWho("luo", true); });
-  (function(){
-    var saved = null;
-    try{ saved = localStorage.getItem("wltrip-who"); }catch(e){}
-    if(saved === "luo" || saved === "hz"){ setWho(saved, false); }
-  })();
 
-  /* ---------- 日/夜模式：默认亮色，手动切换并记忆 ---------- */
-  var themeBtn = document.getElementById("theme-toggle");
-  function applyTheme(theme){
-    document.documentElement.setAttribute("data-theme", theme);
-    themeBtn.textContent = theme === "dark" ? "☀️" : "🌙";
+  /* ============ 7. 日夜配色（默认永远亮色，手动切换并记住） ============ */
+  var themeBtn = document.getElementById("themeToggle");
+  function applyTheme(t){
+    document.documentElement.setAttribute("data-theme", t);
+    themeBtn.textContent = t === "dark" ? "☀️" : "🌙";
   }
   themeBtn.addEventListener("click", function(){
     var next = document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark";
-    applyTheme(next);
-    try{ localStorage.setItem("wltrip-theme", next); }catch(e){}
+    applyTheme(next); save("wltrip-theme", next);
   });
-  (function(){
-    var saved = null;
-    try{ saved = localStorage.getItem("wltrip-theme"); }catch(e){}
-    applyTheme(saved === "dark" ? "dark" : "light");
-  })();
+  applyTheme(load("wltrip-theme") === "dark" ? "dark" : "light");
 
-  /* ---------- 自动展开"今天"对应的行程 ---------- */
-  (function(){
-    var bj = nowBJ(), key = bj.getFullYear()+"-"+pad(bj.getMonth()+1)+"-"+pad(bj.getDate());
-    var map = {"2026-09-29":"day1","2026-09-30":"day2","2026-10-01":"day3"};
-    var id = map[key];
-    if(id){ var d = document.getElementById(id); if(d) d.open = true; }
-  })();
+  /* ============ 8. 启动 ============ */
+  var savedWho = load("wltrip-who");
+  if(savedWho === "wz" || savedWho === "hz"){ viewer = savedWho; }
+  applyViewer();
+  setInterval(tick, 1000);
 })();
 </script>
 </body>
